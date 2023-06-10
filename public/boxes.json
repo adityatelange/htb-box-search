@@ -1,1 +1,1587 @@
-{}
+{
+    "1": {
+        "name": "Lame",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "2": {
+        "name": "Legacy",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "3": {
+        "name": "Devel",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "4": {
+        "name": "Popcorn",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "5": {
+        "name": "Beep",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "6": {
+        "name": "Optimum",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "7": {
+        "name": "Bastard",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "8": {
+        "name": "Tenten",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "9": {
+        "name": "Arctic",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "11": {
+        "name": "Cronos",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "13": {
+        "name": "Grandpa",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "14": {
+        "name": "Granny",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "15": {
+        "name": "October",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "17": {
+        "name": "Brainfuck",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "18": {
+        "name": "Lazy",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "19": {
+        "name": "Sneaky",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "20": {
+        "name": "Joker",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "21": {
+        "name": "Haircut",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "22": {
+        "name": "Holiday",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "26": {
+        "name": "Bank",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "27": {
+        "name": "Europa",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "37": {
+        "name": "Calamity",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "42": {
+        "name": "Charon",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "45": {
+        "name": "Jail",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "48": {
+        "name": "Blocky",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "51": {
+        "name": "Blue",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "54": {
+        "name": "Nineveh",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "57": {
+        "name": "Apocalyst",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "58": {
+        "name": "Shrek",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "64": {
+        "name": "Mirai",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "85": {
+        "name": "SolidState",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "98": {
+        "name": "Mantis",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "101": {
+        "name": "Kotarak",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "108": {
+        "name": "Shocker",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "109": {
+        "name": "Minion",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "110": {
+        "name": "Node",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "111": {
+        "name": "Sense",
+        "os": "OpenBSD",
+        "difficultyText": "Easy"
+    },
+    "112": {
+        "name": "Enterprise",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "113": {
+        "name": "Tally",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "114": {
+        "name": "Jeeves",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "115": {
+        "name": "Ariekei",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "116": {
+        "name": "Fulcrum",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "117": {
+        "name": "Inception",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "118": {
+        "name": "Bashed",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "119": {
+        "name": "FluxCapacitor",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "120": {
+        "name": "CrimeStoppers",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "121": {
+        "name": "Nibbles",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "122": {
+        "name": "Nightmare",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "123": {
+        "name": "Chatterbox",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "124": {
+        "name": "Falafel",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "126": {
+        "name": "Aragog",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "127": {
+        "name": "Valentine",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "128": {
+        "name": "Bart",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "129": {
+        "name": "Stratosphere",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "130": {
+        "name": "Celestial",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "131": {
+        "name": "Silo",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "132": {
+        "name": "Poison",
+        "os": "FreeBSD",
+        "difficultyText": "Medium"
+    },
+    "133": {
+        "name": "Rabbit",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "134": {
+        "name": "Canape",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "135": {
+        "name": "Olympus",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "136": {
+        "name": "Sunday",
+        "os": "Solaris",
+        "difficultyText": "Easy"
+    },
+    "137": {
+        "name": "Fighter",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "138": {
+        "name": "TartarSauce",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "139": {
+        "name": "Dropzone",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "140": {
+        "name": "DevOops",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "141": {
+        "name": "Smasher",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "142": {
+        "name": "Bounty",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "143": {
+        "name": "Reel",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "144": {
+        "name": "Jerry",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "145": {
+        "name": "Mischief",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "146": {
+        "name": "Hawk",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "147": {
+        "name": "Reddish",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "148": {
+        "name": "Active",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "149": {
+        "name": "Waldo",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "150": {
+        "name": "Dab",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "151": {
+        "name": "SecNotes",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "152": {
+        "name": "Oz",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "153": {
+        "name": "Giddy",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "154": {
+        "name": "Ypuffy",
+        "os": "Other",
+        "difficultyText": "Medium"
+    },
+    "155": {
+        "name": "Carrier",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "156": {
+        "name": "Access",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "157": {
+        "name": "Ethereal",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "158": {
+        "name": "Frolic",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "159": {
+        "name": "Zipper",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "160": {
+        "name": "Curling",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "161": {
+        "name": "Vault",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "162": {
+        "name": "RedCross",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "163": {
+        "name": "Irked",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "164": {
+        "name": "BigHead",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "165": {
+        "name": "Teacher",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "166": {
+        "name": "Lightweight",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "167": {
+        "name": "Chaos",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "168": {
+        "name": "Conceal",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "169": {
+        "name": "Sizzle",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "170": {
+        "name": "Help",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "171": {
+        "name": "FluJab",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "172": {
+        "name": "CTF",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "173": {
+        "name": "FriendZone",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "175": {
+        "name": "Querier",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "176": {
+        "name": "Hackback",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "177": {
+        "name": "Netmon",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "178": {
+        "name": "Fortune",
+        "os": "Other",
+        "difficultyText": "Insane"
+    },
+    "179": {
+        "name": "Arkham",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "180": {
+        "name": "Helpline",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "181": {
+        "name": "LaCasaDePapel",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "183": {
+        "name": "Kryptos",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "184": {
+        "name": "Unattended",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "185": {
+        "name": "OneTwoSeven",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "186": {
+        "name": "Bastion",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "187": {
+        "name": "Ghoul",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "188": {
+        "name": "SwagShop",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "189": {
+        "name": "Ellingson",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "190": {
+        "name": "Luke",
+        "os": "FreeBSD",
+        "difficultyText": "Medium"
+    },
+    "191": {
+        "name": "Smasher2",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "192": {
+        "name": "Writeup",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "193": {
+        "name": "Chainsaw",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "194": {
+        "name": "Jarvis",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "195": {
+        "name": "Haystack",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "196": {
+        "name": "Player",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "197": {
+        "name": "Craft",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "198": {
+        "name": "RE",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "199": {
+        "name": "Safe",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "200": {
+        "name": "Rope",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "201": {
+        "name": "Heist",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "202": {
+        "name": "Scavenger",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "203": {
+        "name": "Networked",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "204": {
+        "name": "Zetta",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "207": {
+        "name": "Bitlab",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "208": {
+        "name": "Wall",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "209": {
+        "name": "Bankrobber",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "210": {
+        "name": "Json",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "211": {
+        "name": "Sniper",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "212": {
+        "name": "Forest",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "213": {
+        "name": "Registry",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "214": {
+        "name": "Mango",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "215": {
+        "name": "Postman",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "216": {
+        "name": "AI",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "217": {
+        "name": "Traverxec",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "218": {
+        "name": "Control",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "219": {
+        "name": "Obscurity",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "220": {
+        "name": "Resolute",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "221": {
+        "name": "PlayerTwo",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "222": {
+        "name": "OpenAdmin",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "223": {
+        "name": "Monteverde",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "224": {
+        "name": "Patents",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "225": {
+        "name": "Nest",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "227": {
+        "name": "Fatty",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "229": {
+        "name": "Sauna",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "230": {
+        "name": "Book",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "231": {
+        "name": "Oouch",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "232": {
+        "name": "Multimaster",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "233": {
+        "name": "Traceback",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "234": {
+        "name": "Remote",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "235": {
+        "name": "Cascade",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "239": {
+        "name": "ForwardSlash",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "240": {
+        "name": "ServMon",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "241": {
+        "name": "Magic",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "244": {
+        "name": "Quick",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "248": {
+        "name": "Admirer",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "251": {
+        "name": "Cache",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "252": {
+        "name": "Travel",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "253": {
+        "name": "Dyplesher",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "254": {
+        "name": "Blunder",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "255": {
+        "name": "Blackfield",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "256": {
+        "name": "Fuse",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "259": {
+        "name": "Tabby",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "260": {
+        "name": "RopeTwo",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "261": {
+        "name": "Intense",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "262": {
+        "name": "SneakyMailer",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "263": {
+        "name": "Buff",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "267": {
+        "name": "OpenKeyS",
+        "os": "OpenBSD",
+        "difficultyText": "Medium"
+    },
+    "268": {
+        "name": "Unbalanced",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "269": {
+        "name": "Laser",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "270": {
+        "name": "Worker",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "271": {
+        "name": "Omni",
+        "os": "Other",
+        "difficultyText": "Easy"
+    },
+    "274": {
+        "name": "Feline",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "275": {
+        "name": "Passage",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "276": {
+        "name": "Compromised",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "277": {
+        "name": "CrossFit",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "278": {
+        "name": "Doctor",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "281": {
+        "name": "Reel2",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "282": {
+        "name": "Jewel",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "283": {
+        "name": "Bucket",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "286": {
+        "name": "Time",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "296": {
+        "name": "APT",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "297": {
+        "name": "Academy",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "298": {
+        "name": "Laboratory",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "299": {
+        "name": "Cereal",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "302": {
+        "name": "Luanne",
+        "os": "Other",
+        "difficultyText": "Easy"
+    },
+    "303": {
+        "name": "Sharp",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "304": {
+        "name": "Ready",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "307": {
+        "name": "Attended",
+        "os": "OpenBSD",
+        "difficultyText": "Insane"
+    },
+    "308": {
+        "name": "Delivery",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "309": {
+        "name": "Tenet",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "310": {
+        "name": "Tentacle",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "313": {
+        "name": "Sink",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "314": {
+        "name": "ScriptKiddie",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "315": {
+        "name": "Ophiuchi",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "316": {
+        "name": "Breadcrumbs",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "317": {
+        "name": "Spectra",
+        "os": "Other",
+        "difficultyText": "Easy"
+    },
+    "320": {
+        "name": "TheNotebook",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "321": {
+        "name": "Proper",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "322": {
+        "name": "CrossFitTwo",
+        "os": "OpenBSD",
+        "difficultyText": "Insane"
+    },
+    "323": {
+        "name": "Armageddon",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "335": {
+        "name": "Schooled",
+        "os": "FreeBSD",
+        "difficultyText": "Medium"
+    },
+    "338": {
+        "name": "Unobtainium",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "339": {
+        "name": "Toolbox",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "340": {
+        "name": "Atom",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "341": {
+        "name": "Monitors",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "344": {
+        "name": "Love",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "345": {
+        "name": "pivotapi",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "346": {
+        "name": "Pit",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "347": {
+        "name": "Knife",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "350": {
+        "name": "Spider",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "351": {
+        "name": "Cap",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "352": {
+        "name": "dynstr",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "355": {
+        "name": "Static",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "356": {
+        "name": "Explore",
+        "os": "Android",
+        "difficultyText": "Easy"
+    },
+    "357": {
+        "name": "Intelligence",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "358": {
+        "name": "Seal",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "359": {
+        "name": "BountyHunter",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "360": {
+        "name": "Pikaboo",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "361": {
+        "name": "Writer",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "371": {
+        "name": "Anubis",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "372": {
+        "name": "Developer",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "373": {
+        "name": "Previse",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "374": {
+        "name": "Horizontall",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "375": {
+        "name": "EarlyAccess",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "376": {
+        "name": "Forge",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "378": {
+        "name": "Gobox",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "379": {
+        "name": "Stacked",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "382": {
+        "name": "Validation",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "384": {
+        "name": "Bolt",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "387": {
+        "name": "Driver",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "388": {
+        "name": "Hancliffe",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "389": {
+        "name": "Jarmis",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "398": {
+        "name": "Devzat",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "399": {
+        "name": "Overflow",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "400": {
+        "name": "Antique",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "401": {
+        "name": "Return",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "408": {
+        "name": "Secret",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "409": {
+        "name": "Toby",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "410": {
+        "name": "Shibboleth",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "413": {
+        "name": "Spooktrol",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "414": {
+        "name": "Nunchucks",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "415": {
+        "name": "Unicode",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "416": {
+        "name": "Backdoor",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "417": {
+        "name": "Fingerprint",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "418": {
+        "name": "Union",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "421": {
+        "name": "Timing",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "422": {
+        "name": "Search",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "423": {
+        "name": "Pandora",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "427": {
+        "name": "AdmirerToo",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "428": {
+        "name": "LogForge",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "429": {
+        "name": "Meta",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "430": {
+        "name": "NodeBlog",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "431": {
+        "name": "Scanned",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "432": {
+        "name": "Paper",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "437": {
+        "name": "Flustered",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "438": {
+        "name": "Acute",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "439": {
+        "name": "Undetected",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "440": {
+        "name": "Pressed",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "442": {
+        "name": "Epsilon",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "443": {
+        "name": "SteamCloud",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "444": {
+        "name": "RouterSpace",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "446": {
+        "name": "GoodGames",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "447": {
+        "name": "Object",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "448": {
+        "name": "Phoenix",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "450": {
+        "name": "Catch",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "451": {
+        "name": "Perspective",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "452": {
+        "name": "Timelapse",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "456": {
+        "name": "Retired",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "457": {
+        "name": "Ransom",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "458": {
+        "name": "Talkative",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "459": {
+        "name": "Hathor",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "460": {
+        "name": "Altered",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "462": {
+        "name": "Backend",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "463": {
+        "name": "Late",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "464": {
+        "name": "OverGraph",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "467": {
+        "name": "Noter",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "468": {
+        "name": "Response",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
+    "469": {
+        "name": "BackendTwo",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "471": {
+        "name": "OpenSource",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "473": {
+        "name": "Seventeen",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "474": {
+        "name": "StreamIO",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "476": {
+        "name": "Scrambled",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "477": {
+        "name": "Trick",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "478": {
+        "name": "Carpediem",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "480": {
+        "name": "Faculty",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "481": {
+        "name": "RedPanda",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "482": {
+        "name": "Extension",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "483": {
+        "name": "Shared",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "484": {
+        "name": "Support",
+        "os": "Windows",
+        "difficultyText": "Easy"
+    },
+    "485": {
+        "name": "Moderators",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "490": {
+        "name": "Outdated",
+        "os": "Windows",
+        "difficultyText": "Medium"
+    },
+    "491": {
+        "name": "Health",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "492": {
+        "name": "Vessel",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "493": {
+        "name": "UpDown",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "495": {
+        "name": "Sekhmet",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "496": {
+        "name": "Shoppy",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "498": {
+        "name": "Absolute",
+        "os": "Windows",
+        "difficultyText": "Insane"
+    },
+    "499": {
+        "name": "Ambassador",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "500": {
+        "name": "Photobomb",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "502": {
+        "name": "RainyDay",
+        "os": "Linux",
+        "difficultyText": "Hard"
+    },
+    "503": {
+        "name": "Awkward",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "504": {
+        "name": "MetaTwo",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "510": {
+        "name": "Flight",
+        "os": "Windows",
+        "difficultyText": "Hard"
+    },
+    "511": {
+        "name": "Forgot",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "513": {
+        "name": "Precious",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "514": {
+        "name": "Squashed",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    },
+    "518": {
+        "name": "Mentor",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "521": {
+        "name": "BroScience",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "525": {
+        "name": "Investigation",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "526": {
+        "name": "Encoding",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "527": {
+        "name": "Interface",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "530": {
+        "name": "Bagel",
+        "os": "Linux",
+        "difficultyText": "Medium"
+    },
+    "547": {
+        "name": "TwoMillion",
+        "os": "Linux",
+        "difficultyText": "Easy"
+    }
+}
