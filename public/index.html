@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hack The Box - Box Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            overflow-y: scroll;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        h1,
+        #tableContainer {
+            text-align: center;
+        }
+
+        noscript {
+            color: red;
+        }
+
+        #search-input {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+            font-size: 16px;
+            background-color: #fff;
+            color: #333;
+            border: 1px solid;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e6e6e6;
+        }
+
+        a {
+            color: #000;
+            font-weight: bold;
+        }
+
+        /* Responsive Styles */
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333;
+                color: #f5f5f5;
+            }
+
+            input[type="text"],
+            select {
+                background-color: #333;
+                color: #f5f5f5;
+            }
+
+            table {
+                background-color: #333;
+                color: #f5f5f5;
+            }
+
+            th {
+                background-color: #222;
+            }
+
+            tr:nth-child(even) {
+                background-color: #444;
+            }
+
+            tr:hover {
+                background-color: #555;
+            }
+
+            a {
+                color: #fff;
+            }
+        }
+
+        @media (max-width: 600px) {
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+
+            th,
+            td {
+                min-width: 120px;
+            }
+
+            th:first-child,
+            td:first-child {
+                min-width: 80px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1><a href="">Hack The Box - Box Search</a></h1>
+    <div class="container">
+        <label for="searchInput">Search:</label>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <label for="filterOsSelect">Filter by OS:</label>
+        <select id="filterOsSelect">
+            <option value="">All</option>
+        </select>
+        <label for="filterDifficultySelect">Filter by Difficulty:</label>
+        <select id="filterDifficultySelect">
+            <option value="">All</option>
+        </select>
+        <label for="filterTagSelect">Filter by Tag:</label>
+        <select id="filterTagSelect">
+            <option value="">All</option>
+        </select>
+    </div>
+    <div id="tableContainer">
+        <noscript>
+            JavaScript is required for this page to work.
+        </noscript>
+    </div>
+
+    <script>
+        var jsonData = {}
+        const tableContainer = document.getElementById('tableContainer');
+
+        // Below code is generated with help of chatGPT
+        fetch('boxes.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                // filtering code placed here
+                const tableContainer = document.getElementById('tableContainer');
+                const searchInput = document.getElementById('searchInput');
+                const filterOsSelect = document.getElementById('filterOsSelect');
+                const filterDifficultySelect = document.getElementById('filterDifficultySelect');
+                const filterTagSelect = document.getElementById('filterTagSelect');
+
+                function humanize(str) {
+                    return str
+                        .replace(/^[\s_]+|[\s_]+$/g, '')
+                        .replace(/[_\s]+/g, ' ')
+                        .replace(/^[a-z]/, function (m) { return m.toUpperCase(); });
+                }
+
+                function generateTable(data) {
+                    const table = document.createElement('table');
+                    const headerRow = document.createElement('tr');
+
+                    // Add serial number header
+                    const serialHeader = document.createElement('th');
+                    serialHeader.textContent = '#';
+                    headerRow.appendChild(serialHeader);
+
+                    // Get all unique keys from the JSON data
+                    const uniqueKeys = [...new Set(Object.values(jsonData).flatMap(item => Object.keys(item)))];
+
+                    // Create table headers
+                    uniqueKeys.forEach(key => {
+                        const headerCell = document.createElement('th');
+                        headerCell.textContent = humanize(key);
+                        headerRow.appendChild(headerCell);
+                    });
+
+                    table.appendChild(headerRow);
+
+                    // Check if data is empty
+                    if (Object.keys(data).length === 0) {
+                        const emptyRow = document.createElement('tr');
+                        const emptyCell = document.createElement('td');
+                        emptyCell.setAttribute('colspan', uniqueKeys.length + 1);
+                        emptyCell.textContent = 'No data available';
+                        emptyRow.appendChild(emptyCell);
+                        table.appendChild(emptyRow);
+                    } else {
+                        // Create table rows and cells
+                        Object.values(data).forEach((rowData, index) => {
+                            const row = document.createElement('tr');
+
+                            // Add serial number cell
+                            const serialCell = document.createElement('td');
+                            serialCell.textContent = index + 1;
+                            row.appendChild(serialCell);
+
+                            uniqueKeys.forEach(key => {
+                                const cell = document.createElement('td');
+                                if (key === 'name') {
+                                    const link = document.createElement('a');
+                                    link.href = 'https://www.hackthebox.com/machines/' + rowData[key].toLowerCase();
+                                    link.target = '_blank';
+                                    link.textContent = rowData[key];
+                                    cell.appendChild(link)
+                                } else {
+                                    cell.textContent = Array.isArray(rowData[key]) ? rowData[key].join(', ') : rowData[key];
+                                }
+                                row.appendChild(cell);
+
+                            });
+
+                            table.appendChild(row);
+                        });
+                    }
+
+                    return table;
+                }
+
+                function getUniqueTags(data) {
+                    const allTags = Object.values(data).flatMap(item => item.tags);
+                    const uniqueTags = [...new Set(allTags)];
+                    uniqueTags.sort(); // Sort the tags in ascending order
+                    return uniqueTags;
+                }
+
+                function getUniqueOs(data) {
+                    const allOs = Object.values(data).map(item => item.os);
+                    const uniqueOs = [...new Set(allOs)];
+                    return uniqueOs;
+                }
+
+                function getUniqueDifficulties(data) {
+                    const allDifficulties = Object.values(data).map(item => item.difficultyText);
+                    const uniqueDifficulties = [...new Set(allDifficulties)];
+                    return uniqueDifficulties;
+                }
+
+                function applySearchAndFilter() {
+                    const searchText = searchInput.value.toLowerCase();
+                    const filterOs = filterOsSelect.value;
+                    const filterDifficulty = filterDifficultySelect.value;
+                    const filterTag = filterTagSelect.value;
+
+                    const filteredData = Object.values(jsonData).filter(item => {
+                        const tags = item.tags.map(tag => tag.toLowerCase());
+
+                        return (
+                            (searchText === '' || Object.values(item).some(value => value.toString().toLowerCase().includes(searchText))) &&
+                            (filterOs === '' || item.os.toLowerCase() === filterOs.toLowerCase()) &&
+                            (filterDifficulty === '' || item.difficultyText.toLowerCase() === filterDifficulty.toLowerCase()) &&
+                            (filterTag === '' || tags.includes(filterTag.toLowerCase()))
+                        );
+                    });
+
+                    const table = generateTable(filteredData);
+
+                    // Clear the table container and append the updated table
+                    tableContainer.innerHTML = '';
+                    tableContainer.appendChild(table);
+                }
+
+                searchInput.addEventListener('input', applySearchAndFilter);
+                filterOsSelect.addEventListener('change', applySearchAndFilter);
+                filterDifficultySelect.addEventListener('change', applySearchAndFilter);
+                filterTagSelect.addEventListener('change', applySearchAndFilter);
+
+                // Populate filter dropdowns with unique values
+                const uniqueOs = getUniqueOs(jsonData);
+                uniqueOs.forEach(os => {
+                    const option = document.createElement('option');
+                    option.value = os;
+                    option.textContent = os;
+                    filterOsSelect.appendChild(option);
+                });
+
+                const uniqueDifficulties = getUniqueDifficulties(jsonData);
+                uniqueDifficulties.forEach(difficulty => {
+                    const option = document.createElement('option');
+                    option.value = difficulty;
+                    option.textContent = difficulty;
+                    filterDifficultySelect.appendChild(option);
+                });
+
+                const uniqueTags = getUniqueTags(jsonData);
+                uniqueTags.forEach(tag => {
+                    const option = document.createElement('option');
+                    option.value = tag;
+                    option.textContent = tag;
+                    filterTagSelect.appendChild(option);
+                });
+
+                // Generate initial table
+                const initialTable = generateTable(Object.values(jsonData));
+                tableContainer.appendChild(initialTable);
+            })
+            .catch(error => {
+                console.error('Error loading JSON data:', error);
+            });
+
+
+    </script>
+</body>
+
+</html>
