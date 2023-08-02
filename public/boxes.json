@@ -6997,7 +6997,38 @@
         "name": "Flight",
         "os": "Windows",
         "difficultyText": "Hard",
-        "tags": []
+        "tags": [
+            "Web",
+            "Custom Applications",
+            "IIS",
+            "PHP",
+            "Reconnaissance",
+            "Remote File Inclusion",
+            "Network",
+            "Active Directory",
+            "SMB",
+            "ASP",
+            "User Enumeration",
+            "Arbitrary File Upload",
+            "Vulnerability Assessment",
+            "Protocols",
+            "Kerberos",
+            "Fuzzing",
+            "Misconfiguration",
+            "Authentication",
+            "Antivirus",
+            "Pivoting",
+            "Impersonation",
+            "Tunneling",
+            "Password Reuse",
+            "Password Cracking",
+            "Antivirus Bypass",
+            "AD DCSync",
+            "Password Spraying",
+            "Kerberos Abuse",
+            "Potato Exploits",
+            "Password Capture"
+        ]
     },
     "511": {
         "name": "Forgot",
@@ -7022,6 +7053,33 @@
             "Clear Text Credentials",
             "Host Header Injection",
             "Code Injection"
+        ]
+    },
+    "512": {
+        "name": "Derailed",
+        "os": "Linux",
+        "difficultyText": "Insane",
+        "tags": [
+            "Web",
+            "Databases",
+            "Rails",
+            "Ruby",
+            "Reconnaissance",
+            "Arbitrary File Read",
+            "Vulnerability Assessment",
+            "Injection",
+            "NGINX",
+            "Web Assembly",
+            "Password Cracking",
+            "Remote Code Execution",
+            "Client Side",
+            "SQLite",
+            "PHP",
+            "Password Reuse",
+            "OS Command Injection",
+            "OpenMediaVault",
+            "Cross Site Scripting (XSS)",
+            "Buffer Overflow"
         ]
     },
     "513": {
@@ -7065,46 +7123,310 @@
             "Arbitrary File Upload"
         ]
     },
+    "517": {
+        "name": "Pollution",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": [
+            "Web",
+            "Databases",
+            "Apache",
+            "PHP",
+            "Reconnaissance",
+            "XXE Injection",
+            "Vulnerability Assessment",
+            "Injection",
+            "Redis",
+            "Python",
+            "Web Site Structure Discovery",
+            "Local File Inclusion",
+            "Session Handling",
+            "MyBB forum",
+            "Fuzzing",
+            "Remote Code Execution",
+            "Custom Applications",
+            "Password Cracking",
+            "Prototype Pollution Injection",
+            "Common Applications",
+            "Authentication bypass",
+            "Clear Text Credentials",
+            "Source Code Analysis",
+            "Brute Force Attack",
+            "Command Execution",
+            "Outdated Software",
+            "Dictionary attack",
+            "Hard-coded Credentials"
+        ]
+    },
     "518": {
         "name": "Mentor",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web",
+            "Common Applications",
+            "Apache",
+            "Bash",
+            "Reconnaissance",
+            "Clear Text Credentials",
+            "Vulnerability Assessment",
+            "Authorization",
+            "PostgreSQL",
+            "Fuzzing",
+            "OS Command Injection",
+            "Network",
+            "Common Services",
+            "Docker",
+            "Tunneling",
+            "Remote Code Execution",
+            "Authentication",
+            "SNMP",
+            "API Abuse",
+            "Default Credentials",
+            "JWT",
+            "Password Reuse",
+            "Password Cracking"
+        ]
+    },
+    "519": {
+        "name": "Soccer",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Web",
+            "Databases",
+            "MySQL",
+            "Python",
+            "Reconnaissance",
+            "SQL Injection",
+            "Vulnerability Assessment",
+            "Injection",
+            "NGINX",
+            "Web Site Structure Discovery",
+            "Remote Code Execution",
+            "Outdated Software",
+            "WebSockets",
+            "Fuzzing",
+            "Default Credentials",
+            "Authentication",
+            "Password Reuse",
+            "Clear Text Credentials",
+            "SUID Exploitation",
+            "Command Execution"
+        ]
     },
     "521": {
         "name": "BroScience",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web",
+            "Custom Applications",
+            "OpenSSL",
+            "PHP",
+            "Reconnaissance",
+            "Local File Inclusion",
+            "Vulnerability Assessment",
+            "Injection",
+            "Apache",
+            "Bash",
+            "Fuzzing",
+            "Remote Code Execution",
+            "Source Code Analysis",
+            "Password Reuse",
+            "Deserialization",
+            "Cookie Manipulation",
+            "Information Disclosure",
+            "Scheduled Job Abuse",
+            "Code Injection",
+            "Password Cracking"
+        ]
+    },
+    "523": {
+        "name": "Stocker",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Web",
+            "Databases",
+            "NGINX",
+            "JavaScript",
+            "Reconnaissance",
+            "NoSQL Injection",
+            "Injection",
+            "NodeJS",
+            "Web Site Structure Discovery",
+            "Directory Traversal",
+            "MongoDB",
+            "SUDO Exploitation",
+            "Authentication bypass"
+        ]
     },
     "525": {
         "name": "Investigation",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web",
+            "Injection",
+            "SSH",
+            "C",
+            "Reconnaissance",
+            "OS Command Injection",
+            "Vulnerability Assessment",
+            "Outdated Software",
+            "Apache",
+            "Log Analysis",
+            "Sensitive Data Exposure",
+            "Forensics",
+            "Custom Applications",
+            "SUDO Exploitation",
+            "Log Analysis",
+            "Decompilation",
+            "Reversing",
+            "Binary Analysis"
+        ]
     },
     "526": {
         "name": "Encoding",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web",
+            "Custom Applications",
+            "Apache",
+            "PHP",
+            "Web Site Structure Discovery",
+            "Local File Inclusion",
+            "Source Code Analysis",
+            "Fuzzing",
+            "Arbitrary File Read",
+            "Reconnaissance",
+            "Code Execution",
+            "Configuration Analysis"
+        ]
     },
     "527": {
         "name": "Interface",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web"
+        ]
     },
     "530": {
         "name": "Bagel",
         "os": "Linux",
         "difficultyText": "Medium",
+        "tags": [
+            "Web",
+            "Werkzeug",
+            "Python",
+            "Web Site Structure Discovery",
+            "Deserialization",
+            ".NET",
+            "C#",
+            "SUDO Exploitation",
+            "Local File Inclusion",
+            "Arbitrary File Read"
+        ]
+    },
+    "531": {
+        "name": "Escape",
+        "os": "Windows",
+        "difficultyText": "Medium",
+        "tags": [
+            "Network",
+            "Active Directory",
+            "MSSQL",
+            "Reconnaissance",
+            "Misconfiguration",
+            "Forensics",
+            "Common Services",
+            "Kerberos",
+            "Impersonation",
+            "Anonymous/Guest Access",
+            "Log Analysis",
+            "Active Directory Certificate Services",
+            "Log Analysis",
+            "Password Reuse",
+            "Password Cracking",
+            "Pass the Hash",
+            "Windows Service Exploitation",
+            "Hash Capture"
+        ]
+    },
+    "533": {
+        "name": "Inject",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Web",
+            "Injection",
+            "Spring Boot",
+            "YAML",
+            "Reconnaissance",
+            "Host Header Injection",
+            "Vulnerability Assessment",
+            "Outdated Software",
+            "Ansible",
+            "Password Reuse",
+            "Remote Code Execution",
+            "Scheduled Job Abuse",
+            "Local File Inclusion",
+            "Configuration Analysis",
+            "Sensitive Data Exposure",
+            "Clear Text Credentials"
+        ]
+    },
+    "534": {
+        "name": "Cerberus",
+        "os": "Windows",
+        "difficultyText": "Hard",
         "tags": []
+    },
+    "535": {
+        "name": "Socket",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": [
+            "Web",
+            "Injection",
+            "SSH",
+            "Python",
+            "Reconnaissance",
+            "SQL Injection",
+            "Reverse Engineering",
+            "Databases",
+            "SQLite",
+            "SQL",
+            "Binary Analysis",
+            "Weak Credentials",
+            "Vulnerability Assessment",
+            "Custom Applications",
+            "WebSockets",
+            "Password Cracking",
+            "Misconfiguration",
+            "Source Code Analysis",
+            "Decompilation",
+            "Reversing"
+        ]
     },
     "547": {
         "name": "TwoMillion",
         "os": "Linux",
         "difficultyText": "Easy",
-        "tags": []
+        "tags": [
+            "Web",
+            "Injection",
+            "NGINX",
+            "PHP",
+            "Remote Code Execution",
+            "Custom",
+            "JavaScript",
+            "OS Command Injection",
+            "Misconfiguration",
+            "Command Execution"
+        ]
     }
 }
