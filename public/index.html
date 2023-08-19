@@ -153,7 +153,7 @@
         </noscript>
     </div>
     <div class="footer">
-        By <a href="https://adityatelange.in">@adityatelange</a> | <a href="https://github.com/adityatelange/htb-box-search">view source on Github</a>
+        By <a href="https://adityatelange.in">@adityatelange</a> | <a href="https://github.com/adityatelange/htb-box-search">view source on Github</a> | This site is part of <a href="https://resources.hackthebox.com/affiliates">HTB affiliate program</a>
     </div>
 
     <script>
@@ -221,7 +221,7 @@
                                 const cell = document.createElement('td');
                                 if (key === 'name') {
                                     const link = document.createElement('a');
-                                    link.href = 'https://www.hackthebox.com/machines/' + rowData[key].toLowerCase();
+                                    link.href = 'https://affiliate.hackthebox.com/tobox?name=' + rowData[key].toLowerCase();
                                     link.target = '_blank';
                                     link.textContent = rowData[key];
                                     cell.appendChild(link)
