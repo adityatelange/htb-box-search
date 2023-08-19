@@ -7356,6 +7356,12 @@
             "Hash Capture"
         ]
     },
+    "532": {
+        "name": "Agile",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": []
+    },
     "533": {
         "name": "Inject",
         "os": "Linux",
@@ -7410,6 +7416,31 @@
             "Source Code Analysis",
             "Decompilation",
             "Reversing"
+        ]
+    },
+    "537": {
+        "name": "Busqueda",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Web",
+            "Common Applications",
+            "Gitea",
+            "Python",
+            "Reconnaissance",
+            "Hard-coded Credentials",
+            "Vulnerability Assessment",
+            "Injection",
+            "Apache",
+            "SUDO Exploitation",
+            "Code Injection",
+            "Source Code Analysis",
+            "Docker",
+            "Configuration Analysis",
+            "Clear Text Credentials",
+            "Custom Applications",
+            "Password Reuse",
+            "Outdated Software"
         ]
     },
     "547": {
