@@ -7546,6 +7546,56 @@
             "Port Forwarding"
         ]
     },
+    "541": {
+        "name": "Snoopy",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": [
+            "Web",
+            "Protocols",
+            "DNS",
+            "Vulnerability Assessment",
+            "Source Code Analysis",
+            "SMTP",
+            "Browser",
+            "SSH"
+        ]
+    },
+    "542": {
+        "name": "Format",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": []
+    },
+    "543": {
+        "name": "PC",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Vulnerability Assessment",
+            "Injection",
+            "gRPC",
+            "Python",
+            "Reconnaissance",
+            "SQL Injection",
+            "Common Applications",
+            "SQLite",
+            "Tunneling",
+            "Clear Text Credentials",
+            "Outdated Software",
+            "Port Forwarding",
+            "Remote Code Execution",
+            "Protocols",
+            "Parameter Manipulation",
+            "Misconfiguration"
+        ]
+    },
+    "545": {
+        "name": "Jupiter",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": []
+    },
     "547": {
         "name": "TwoMillion",
         "os": "Linux",
@@ -7561,6 +7611,39 @@
             "OS Command Injection",
             "Misconfiguration",
             "Command Execution"
+        ]
+    },
+    "550": {
+        "name": "Intentions",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "554": {
+        "name": "Gofer",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "563": {
+        "name": "Wifinetic",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": []
+    },
+    "571": {
+        "name": "Aero",
+        "os": "Windows",
+        "difficultyText": "Medium",
+        "tags": [
+            "Vulnerability Assessment",
+            "Malware Analysis",
+            "Programming",
+            "Source Code Analysis",
+            "Outdated Software",
+            "C",
+            "Exploit Development",
+            "Exploit Modification"
         ]
     }
 }
