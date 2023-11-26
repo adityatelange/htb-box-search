@@ -7596,6 +7596,26 @@
         "difficultyText": "Medium",
         "tags": []
     },
+    "546": {
+        "name": "Topology",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Vulnerability Assessment",
+            "Injection",
+            "Apache",
+            "Reconnaissance",
+            "Local File Inclusion",
+            "Web",
+            "Common Applications",
+            "Latex",
+            "Password Cracking",
+            "Code Injection",
+            "Authentication",
+            "SSH",
+            "Directory Traversal"
+        ]
+    },
     "547": {
         "name": "TwoMillion",
         "os": "Linux",
@@ -7613,6 +7633,38 @@
             "Command Execution"
         ]
     },
+    "548": {
+        "name": "Sandworm",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": [
+            "Vulnerability Assessment",
+            "Injection",
+            "Flask",
+            "Rust",
+            "Reconnaissance",
+            "Server Side Template Injection (SSTI)",
+            "Web",
+            "Custom Applications",
+            "Python",
+            "SUID Exploitation",
+            "Remote Code Execution",
+            "Source Code Analysis",
+            "Sandbox Escape",
+            "Code Injection",
+            "Cryptography",
+            "Clear Text Credentials",
+            "Outdated Software",
+            "Misconfiguration",
+            "Programming"
+        ]
+    },
+    "549": {
+        "name": "Pilgrimage",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": []
+    },
     "550": {
         "name": "Intentions",
         "os": "Linux",
@@ -7621,6 +7673,12 @@
     },
     "554": {
         "name": "Gofer",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "555": {
+        "name": "Download",
         "os": "Linux",
         "difficultyText": "Hard",
         "tags": []
@@ -7645,5 +7703,11 @@
             "Exploit Development",
             "Exploit Modification"
         ]
+    },
+    "578": {
+        "name": "Broker",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": []
     }
 }
