@@ -17,6 +17,10 @@
             flex-wrap: wrap;
         }
 
+        .tags {
+            min-width: 300px;
+        }
+
         h1,
         #tableContainer,
         .footer {
@@ -235,6 +239,9 @@
                                             link.target = '_blank';
                                             link.textContent = rowData[key];
                                             cell.appendChild(link)
+                                        } else if (key === 'tags') {
+                                            cell.classList = ["tags"]
+                                            cell.textContent = Array.isArray(rowData[key]) ? rowData[key].join(', ') : rowData[key];
                                         } else {
                                             cell.textContent = Array.isArray(rowData[key]) ? rowData[key].join(', ') : rowData[key];
                                         }
