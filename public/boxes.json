@@ -7461,6 +7461,50 @@
             "Reversing"
         ]
     },
+    "536": {
+        "name": "Coder",
+        "os": "Windows",
+        "difficultyText": "Insane",
+        "tags": [
+            "Forensics",
+            "Active Directory",
+            "Kerberos",
+            "Powershell",
+            "Reconnaissance",
+            "Weak Credentials",
+            "Vulnerability Assessment",
+            "Common Services",
+            "Active Directory Certificate Services",
+            "JavaScript",
+            "System Exploitation",
+            "Remote Code Execution",
+            "Reverse Engineering",
+            "Application",
+            "OTP",
+            "C#",
+            "Password Cracking",
+            "Anonymous/Guest Access",
+            "Network",
+            "Source Code Analysis",
+            "2FA",
+            "Antivirus Bypass",
+            "Weak Cryptography",
+            "Cryptography",
+            "SMB",
+            "Kerberos Abuse",
+            "Group Membership",
+            "Reversing",
+            "Antivirus",
+            "Windows Service Exploitation",
+            "Misconfiguration",
+            "DNS",
+            "Privilege Abuse",
+            "RDP",
+            "2FA Bypass",
+            "WinRM",
+            "LDAP"
+        ]
+    },
     "537": {
         "name": "Busqueda",
         "os": "Linux",
@@ -7671,6 +7715,12 @@
         "difficultyText": "Hard",
         "tags": []
     },
+    "553": {
+        "name": "Authority",
+        "os": "Windows",
+        "difficultyText": "Medium",
+        "tags": []
+    },
     "554": {
         "name": "Gofer",
         "os": "Linux",
@@ -7679,6 +7729,12 @@
     },
     "555": {
         "name": "Download",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "557": {
+        "name": "Cybermonday",
         "os": "Linux",
         "difficultyText": "Hard",
         "tags": []
