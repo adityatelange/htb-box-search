@@ -7634,6 +7634,11 @@
             "Misconfiguration"
         ]
     },
+    "544": {
+        "name": "Bookworm",
+        "os": "Linux",
+        "difficultyText": "Insane"
+    },
     "545": {
         "name": "Jupiter",
         "os": "Linux",
@@ -7715,6 +7720,12 @@
         "difficultyText": "Hard",
         "tags": []
     },
+    "551": {
+        "name": "Sau",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": []
+    },
     "553": {
         "name": "Authority",
         "os": "Windows",
@@ -7737,6 +7748,12 @@
         "name": "Cybermonday",
         "os": "Linux",
         "difficultyText": "Hard",
+        "tags": []
+    },
+    "558": {
+        "name": "Zipping",
+        "os": "Linux",
+        "difficultyText": "Medium",
         "tags": []
     },
     "563": {
