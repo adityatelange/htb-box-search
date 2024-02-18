@@ -5731,7 +5731,25 @@
         "name": "NodeBlog",
         "os": "Linux",
         "difficultyText": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Databases",
+            "MongoDB",
+            "NoSQL",
+            "Reconnaissance",
+            "NoSQL Injection",
+            "Vulnerability Assessment",
+            "Injections",
+            "NodeJS",
+            "JavaScript",
+            "Web Site Structure Discovery",
+            "XXE Injection",
+            "Custom Applications",
+            "Password Reuse",
+            "Deserialization",
+            "Source Code Analysis",
+            "Authentication bypass"
+        ]
     },
     "431": {
         "name": "Scanned",
@@ -6212,13 +6230,38 @@
         "name": "Altered",
         "os": "Linux",
         "difficultyText": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Injections",
+            "Laravel",
+            "PHP",
+            "SUID Exploitation",
+            "PHP type juggling",
+            "Software & OS exploitation",
+            "SQL Injection",
+            "Arbitrary File Write"
+        ]
     },
     "462": {
         "name": "Backend",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Custom Applications",
+            "JWT",
+            "Python",
+            "Reconnaissance",
+            "Remote Code Execution",
+            "Vulnerability Assessment",
+            "Authentication",
+            "Web API",
+            "Web Site Structure Discovery",
+            "Arbitrary File Read",
+            "Source Code Analysis",
+            "Fuzzing",
+            "Cookie Manipulation"
+        ]
     },
     "463": {
         "name": "Late",
@@ -7403,7 +7446,22 @@
         "name": "Agile",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Custom Applications",
+            "SSH",
+            "Python",
+            "Reconnaissance",
+            "Arbitrary File Read",
+            "Vulnerability Assessment",
+            "Source Code Analysis",
+            "NGINX",
+            "Web Site Structure Discovery",
+            "Insecure Design",
+            "Software & OS exploitation",
+            "Fuzzing",
+            "Exploit Modification"
+        ]
     },
     "533": {
         "name": "Inject",
@@ -7432,7 +7490,22 @@
         "name": "Cerberus",
         "os": "Windows",
         "difficultyText": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Injections",
+            "Apache",
+            "Python",
+            "Reconnaissance",
+            "Arbitrary File Write",
+            "Vulnerability Assessment",
+            "Protocols",
+            "PHP",
+            "Configuration Analysis",
+            "Local File Inclusion",
+            "Enterprise Network",
+            "Software & OS exploitation",
+            "SUID Exploitation"
+        ]
     },
     "535": {
         "name": "Socket",
@@ -7534,7 +7607,25 @@
         "name": "Mailroom",
         "os": "Linux",
         "difficultyText": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Custom Applications",
+            "SSH",
+            "JavaScript",
+            "Reconnaissance",
+            "NoSQL Injection",
+            "Vulnerability Assessment",
+            "Source Code Analysis",
+            "Apache",
+            "PHP",
+            "Fuzzing",
+            "Cross Site Scripting (XSS)",
+            "MongoDB",
+            "Configuration Analysis",
+            "Server Side Request Forgery (SSRF)",
+            "KeePass",
+            "OS Command Injection"
+        ]
     },
     "539": {
         "name": "MonitorsTwo",
@@ -7609,7 +7700,34 @@
         "name": "Format",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Databases",
+            "NGINX",
+            "PHP",
+            "Reconnaissance",
+            "Format String",
+            "Vulnerability Assessment",
+            "Injections",
+            "Redis",
+            "Python",
+            "User Enumeration",
+            "Local File Inclusion",
+            "Person",
+            "Source Code Analysis",
+            "SSH",
+            "Parameter Manipulation",
+            "Arbitrary File Read",
+            "Common Security Controls",
+            "Configuration Analysis",
+            "Remote Code Execution",
+            "Programming",
+            "Password Reuse",
+            "Clear Text Credentials",
+            "SUDO Exploitation",
+            "Misconfiguration",
+            "Arbitrary File Write"
+        ]
     },
     "543": {
         "name": "PC",
@@ -7637,7 +7755,8 @@
     "544": {
         "name": "Bookworm",
         "os": "Linux",
-        "difficultyText": "Insane"
+        "difficultyText": "Insane",
+        "tags": []
     },
     "545": {
         "name": "Jupiter",
@@ -7712,13 +7831,56 @@
         "name": "Pilgrimage",
         "os": "Linux",
         "difficultyText": "Easy",
-        "tags": []
+        "tags": [
+            "Vulnerability Assessment",
+            "Databases",
+            "NGINX",
+            "PHP",
+            "Reconnaissance",
+            "Arbitrary File Read",
+            "Web Application",
+            "Injections",
+            "Git",
+            "SQL",
+            "Web Site Structure Discovery",
+            "Local File Inclusion",
+            "Common Applications",
+            "SQLite",
+            "Bash",
+            "Fuzzing",
+            "Remote Code Execution",
+            "Source Code Analysis",
+            "SSH",
+            "Password Reuse",
+            "Clear Text Credentials",
+            "Software & OS exploitation",
+            "Misconfiguration"
+        ]
     },
     "550": {
         "name": "Intentions",
         "os": "Linux",
         "difficultyText": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Injections",
+            "NGINX",
+            "PHP",
+            "Reconnaissance",
+            "SQL Injection",
+            "Person",
+            "Custom Applications",
+            "SSH",
+            "SQL",
+            "Password Reuse",
+            "Hard-coded Credentials",
+            "Broken Authentication and Authorization",
+            "MySQL",
+            "Remote Code Execution",
+            "Programming",
+            "Git",
+            "Arbitrary File Upload"
+        ]
     },
     "551": {
         "name": "Sau",
@@ -7726,22 +7888,120 @@
         "difficultyText": "Easy",
         "tags": []
     },
+    "552": {
+        "name": "RegistryTwo",
+        "os": "Linux",
+        "difficultyText": "Insane",
+        "tags": [
+            "Web Application",
+            "Browser",
+            "NGINX",
+            "Java",
+            "Reconnaissance",
+            "Arbitrary File Read",
+            "Vulnerability Assessment",
+            "Session Management and Hijacking",
+            "Tomcat",
+            "Configuration Analysis",
+            "Clear Text Credentials",
+            "Custom Applications",
+            "MySQL",
+            "Exploit Development",
+            "Deserialization",
+            "Source Code Analysis",
+            "Docker",
+            "Password Reuse",
+            "Anonymous/Guest Access",
+            "Reverse Engineering"
+        ]
+    },
     "553": {
         "name": "Authority",
         "os": "Windows",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Common Applications",
+            "Active Directory Certificate Services",
+            "Reconnaissance",
+            "Weak Credentials",
+            "Vulnerability Assessment",
+            "Active Directory",
+            "LDAP",
+            "Configuration Analysis",
+            "Misconfiguration",
+            "Broken Authentication and Authorization",
+            "WinRM",
+            "Pass the Hash",
+            "Anonymous/Guest Access",
+            "Security Tools",
+            "SMB",
+            "Password Cracking",
+            "Ansible",
+            "Password Reuse"
+        ]
     },
     "554": {
         "name": "Gofer",
         "os": "Linux",
         "difficultyText": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Broken Authentication and Authorization",
+            "Apache",
+            "PHP",
+            "Reconnaissance",
+            "Server Side Request Forgery (SSRF)",
+            "Vulnerability Assessment",
+            "Common Applications",
+            "Gopher",
+            "C",
+            "Password Reuse",
+            "Clear Text Credentials",
+            "Enterprise Network",
+            "Custom Applications",
+            "SMTP",
+            "SUID Exploitation",
+            "Misconfiguration",
+            "Protocols",
+            "OpenOffice",
+            "Password Capture",
+            "Reverse Engineering",
+            "Linux Capabilities",
+            "Network Sniffing",
+            "Phishing"
+        ]
     },
     "555": {
         "name": "Download",
         "os": "Linux",
         "difficultyText": "Hard",
+        "tags": [
+            "Web Application",
+            "Databases",
+            "SSH",
+            "JavaScript",
+            "Reconnaissance",
+            "Local File Inclusion",
+            "Vulnerability Assessment",
+            "Injections",
+            "NGINX",
+            "Password Reuse",
+            "SQL Injection",
+            "Session Management and Hijacking",
+            "PostgreSQL",
+            "Password Cracking",
+            "Weak Credentials",
+            "Custom Applications",
+            "Password Dump",
+            "Source Code Analysis",
+            "Scheduled Job Abuse"
+        ]
+    },
+    "556": {
+        "name": "Keeper",
+        "os": "Linux",
+        "difficultyText": "Easy",
         "tags": []
     },
     "557": {
@@ -7760,6 +8020,57 @@
         "name": "Wifinetic",
         "os": "Linux",
         "difficultyText": "Easy",
+        "tags": [
+            "Vulnerability Assessment",
+            "Wireless",
+            "FTP",
+            "Reconnaissance",
+            "Weak Credentials",
+            "Niche Technologies",
+            "Protocols",
+            "SSH",
+            "User Enumeration",
+            "Clear Text Credentials",
+            "Enterprise Network",
+            "Authentication",
+            "Configuration Analysis",
+            "Misconfiguration",
+            "Password Reuse",
+            "Anonymous/Guest Access",
+            "WPS PIN Attack"
+        ]
+    },
+    "564": {
+        "name": "Clicker",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": [
+            "Web Application",
+            "Injections",
+            "MySQL",
+            "PHP",
+            "Reconnaissance",
+            "SQL Injection",
+            "Vulnerability Assessment",
+            "Source Code Analysis",
+            "SQL",
+            "Web Site Structure Discovery",
+            "Remote Code Execution",
+            "Reverse Engineering",
+            "XML",
+            "Fuzzing",
+            "Directory Traversal",
+            "Binary Exploitation",
+            "XXE Injection",
+            "Binary Analysis",
+            "Code Execution",
+            "SUDO Exploitation"
+        ]
+    },
+    "570": {
+        "name": "Drive",
+        "os": "Linux",
+        "difficultyText": "Hard",
         "tags": []
     },
     "571": {
@@ -7781,6 +8092,41 @@
         "name": "Broker",
         "os": "Linux",
         "difficultyText": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Common Applications",
+            "Apache",
+            "Reconnaissance",
+            "Misconfiguration",
+            "Vulnerability Assessment",
+            "Software & OS exploitation",
+            "NGINX",
+            "Exploit Modification",
+            "Remote Code Execution",
+            "System Exploitation",
+            "SUDO Exploitation",
+            "Privilege Abuse"
+        ]
+    },
+    "591": {
+        "name": "Builder",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": [
+            "Web Application",
+            "Common Applications",
+            "Jenkins",
+            "Java",
+            "Reconnaissance",
+            "Arbitrary File Read",
+            "Vulnerability Assessment",
+            "SSH",
+            "User Enumeration",
+            "Weak Credentials",
+            "Docker",
+            "Configuration Analysis",
+            "Misconfiguration",
+            "Password Cracking"
+        ]
     }
 }
