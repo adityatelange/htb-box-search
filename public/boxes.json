@@ -6384,7 +6384,22 @@
         "name": "BackendTwo",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Weak Permissions",
+            "Mass Assignment",
+            "Python",
+            "Reconnaissance",
+            "SSH",
+            "Broken Authentication and Authorization",
+            "Web Application",
+            "Custom Applications",
+            "Source Code Analysis",
+            "Fuzzing",
+            "Web API",
+            "Information Disclosure",
+            "Vulnerability Assessment",
+            "Bash"
+        ]
     },
     "471": {
         "name": "OpenSource",
@@ -7756,13 +7771,48 @@
         "name": "Bookworm",
         "os": "Linux",
         "difficultyText": "Insane",
-        "tags": []
+        "tags": [
+            "Configuration Analysis",
+            "Databases",
+            "Reconnaissance",
+            "JavaScript",
+            "HTML Injection",
+            "Python",
+            "PostScript injection",
+            "Web Application",
+            "SQL Injection",
+            "Apache",
+            "SSH",
+            "Common Security Controls",
+            "Vulnerability Assessment",
+            "Cross Site Scripting (XSS)",
+            "Local File Inclusion",
+            "Insecure Direct Object Reference (IDOR)",
+            "PHP",
+            "MariaDB",
+            "Source Code Analysis",
+            "Custom Applications"
+        ]
     },
     "545": {
         "name": "Jupiter",
         "os": "Linux",
         "difficultyText": "Medium",
-        "tags": []
+        "tags": [
+            "Configuration Analysis",
+            "Databases",
+            "Reconnaissance",
+            "PostgreSQL",
+            "YAML",
+            "Web Application",
+            "Common Applications",
+            "Jupyter Notebook",
+            "SQL Injection",
+            "Injections",
+            "Vulnerability Assessment",
+            "Grafana",
+            "Bash"
+        ]
     },
     "546": {
         "name": "Topology",
@@ -7886,7 +7936,18 @@
         "name": "Sau",
         "os": "Linux",
         "difficultyText": "Easy",
-        "tags": []
+        "tags": [
+            "SUDO Exploitation",
+            "Request Baskets",
+            "Injections",
+            "Server Side Request Forgery (SSRF)",
+            "Maltrail",
+            "OS Command Injection",
+            "Reconnaissance",
+            "Web Application",
+            "Vulnerability Assessment",
+            "Bash"
+        ]
     },
     "552": {
         "name": "RegistryTwo",
@@ -8002,19 +8063,108 @@
         "name": "Keeper",
         "os": "Linux",
         "difficultyText": "Easy",
-        "tags": []
+        "tags": [
+            "System Exploitation",
+            "KeePass",
+            "Reconnaissance",
+            "Web Application",
+            "Common Applications",
+            "Software & OS exploitation",
+            "Default Credentials",
+            "Vulnerability Assessment",
+            "Bash"
+        ]
     },
     "557": {
         "name": "Cybermonday",
         "os": "Linux",
         "difficultyText": "Hard",
-        "tags": []
+        "tags": [
+            "Databases",
+            "Reconnaissance",
+            "Python",
+            "Docker",
+            "Laravel",
+            "API",
+            "Web Application",
+            "SSH",
+            "Web Site Structure Discovery",
+            "Vulnerability Assessment",
+            "Docker Abuse",
+            "NGINX",
+            "Local File Inclusion",
+            "API Abuse",
+            "Redis",
+            "Session Management and Hijacking",
+            "PHP",
+            "Fuzzing",
+            "Source Code Analysis",
+            "Deserialization"
+        ]
     },
     "558": {
         "name": "Zipping",
         "os": "Linux",
         "difficultyText": "Medium",
+        "tags": [
+            "Security Tools",
+            "Arbitrary File Read",
+            "Databases",
+            "Reconnaissance",
+            "Python",
+            "Web Application",
+            "SQL Injection",
+            "Apache",
+            "Binary Analysis",
+            "Injections",
+            "SSH",
+            "Web Site Structure Discovery",
+            "Vulnerability Assessment",
+            "Local File Inclusion",
+            "PHP",
+            "Fuzzing",
+            "Source Code Analysis"
+        ]
+    },
+    "559": {
+        "name": "CozyHosting",
+        "os": "Linux",
+        "difficultyText": "Easy",
         "tags": []
+    },
+    "560": {
+        "name": "Rebound",
+        "os": "Windows",
+        "difficultyText": "Insane",
+        "tags": [
+            "Active Directory Certificate Services",
+            "Password Spraying",
+            "Pivoting",
+            "Pass the Hash",
+            "Configuration Analysis",
+            "Kerberos",
+            "Enterprise Network",
+            "User Enumeration",
+            "AD DCSync",
+            "Windows",
+            "Reconnaissance",
+            "LDAP",
+            "Misconfiguration",
+            "Common Security Controls",
+            "Password Cracking",
+            "WinRM",
+            "Password Reuse",
+            "Kerberos Abuse",
+            "Weak Credentials",
+            "Vulnerability Assessment",
+            "Kerberoasting",
+            "Impersonation",
+            "ASREPRoasting",
+            "Group Membership",
+            "Common Services",
+            "Anonymous/Guest Access",
+            "Active Directory"
+        ]
     },
     "563": {
         "name": "Wifinetic",
@@ -8067,11 +8217,89 @@
             "SUDO Exploitation"
         ]
     },
+    "568": {
+        "name": "Visual",
+        "os": "Windows",
+        "difficultyText": "Medium",
+        "tags": [
+            "Impersonation",
+            "C#",
+            "Apache",
+            "Misconfiguration",
+            "File System Configuration",
+            ".NET",
+            "Insecure Design",
+            "Reconnaissance",
+            "Git",
+            "Web Application",
+            "Custom Applications",
+            "Software & OS exploitation",
+            "Potato Exploits",
+            "Vulnerability Assessment",
+            "Remote Code Execution",
+            "Windows Service Exploitation"
+        ]
+    },
+    "569": {
+        "name": "Analytics",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Bash",
+            "Password Reuse",
+            "Insecure Design",
+            "Docker",
+            "Software & OS exploitation",
+            "Kernel Exploitation",
+            "Metabase",
+            "Vulnerability Assessment",
+            "Authentication",
+            "Reconnaissance",
+            "Remote Code Execution",
+            "Clear Text Credentials",
+            "API Abuse",
+            "Linux Capabilities",
+            "Broken Authentication and Authorization",
+            "Web Application",
+            "Information Disclosure",
+            "Configuration Analysis",
+            "Common Applications"
+        ]
+    },
     "570": {
         "name": "Drive",
         "os": "Linux",
         "difficultyText": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Custom Applications",
+            "Django",
+            "C",
+            "Reconnaissance",
+            "SQL Injection",
+            "Vulnerability Assessment",
+            "Broken Authentication and Authorization",
+            "SSH",
+            "Assembly",
+            "Fuzzing",
+            "Weak Credentials",
+            "Forensics",
+            "Databases",
+            "SQLite",
+            "Python",
+            "Binary Exploitation",
+            "Insecure Direct Object Reference (IDOR)",
+            "Reverse Engineering",
+            "Pivoting",
+            "Hard-coded Credentials",
+            "Software & OS exploitation",
+            "Exploit Development",
+            "Clear Text Credentials",
+            "Password Reuse",
+            "Password Cracking",
+            "SUID Exploitation",
+            "Decompilation"
+        ]
     },
     "571": {
         "name": "Aero",
@@ -8086,6 +8314,61 @@
             "C",
             "Exploit Development",
             "Exploit Modification"
+        ]
+    },
+    "572": {
+        "name": "Manager",
+        "os": "Windows",
+        "difficultyText": "Medium",
+        "tags": []
+    },
+    "573": {
+        "name": "Appsanity",
+        "os": "Windows",
+        "difficultyText": "Hard",
+        "tags": [
+            "WinRM",
+            "Session Management and Hijacking",
+            "Binary Analysis",
+            "Binary Exploitation",
+            "C#",
+            "Arbitrary File Upload",
+            "Custom Applications",
+            "Tunneling",
+            "Code Execution",
+            "ASP",
+            "Remote Code Execution",
+            "Server Side Request Forgery (SSRF)",
+            "Insecure Direct Object Reference (IDOR)",
+            "Web Application",
+            "Broken Authentication and Authorization",
+            "C++",
+            "IIS"
+        ]
+    },
+    "574": {
+        "name": "Codify",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Web Application",
+            "NodeJS",
+            "Bash",
+            "Reconnaissance",
+            "Remote Code Execution",
+            "Web Site Structure Discovery",
+            "SQLite",
+            "JavaScript",
+            "User Enumeration",
+            "Clear Text Credentials",
+            "Custom Applications",
+            "Password Reuse",
+            "Default Credentials",
+            "Password Cracking",
+            "SUDO Exploitation",
+            "Databases",
+            "MySQL",
+            "Weak Credentials"
         ]
     },
     "578": {
