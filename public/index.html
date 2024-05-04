@@ -173,19 +173,15 @@
     </div>
     <div class="footer">
         By <a href="https://adityatelange.in">@adityatelange</a> | <a
-            href="https://github.com/adityatelange/htb-box-search">view source on Github</a> | This site is part of <a
-            href="https://resources.hackthebox.com/affiliates">HTB affiliate program</a>
+            href="https://github.com/adityatelange/htb-box-search">view source on Github</a>
     </div>
 
     <script>
         var jsonData = {}
-        var affReach = false
         const tableContainer = document.getElementById('tableContainer');
 
         window.addEventListener('load', async () => {
             try {
-                await fetch('https://affiliate.hackthebox.com', { mode: 'no-cors' });
-                affReach = true;
             } finally {
                 // Below code is generated with help of chatGPT
                 fetch('boxes.json')
@@ -248,11 +244,7 @@
                                         const cell = document.createElement('td');
                                         if (key === 'name') {
                                             const link = document.createElement('a');
-                                            if (affReach) {
-                                                link.href = 'https://affiliate.hackthebox.com/tobox?name=' + rowData[key].toLowerCase();
-                                            } else {
-                                                link.href = 'https://app.hackthebox.com/machines/' + rowData[key].toLowerCase();
-                                            }
+                                            link.href = 'https://app.hackthebox.com/machines/' + rowData[key].toLowerCase();
                                             link.target = '_blank';
                                             link.textContent = rowData[key];
                                             cell.appendChild(link)
