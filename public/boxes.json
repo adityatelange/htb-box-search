@@ -8371,6 +8371,74 @@
             "Weak Credentials"
         ]
     },
+    "575": {
+        "name": "Napper",
+        "os": "Windows",
+        "difficultyText": "Hard",
+        "tags": [
+            "Web Application",
+            "Custom Applications",
+            "IIS",
+            "C#",
+            "Reconnaissance",
+            "Remote Code Execution",
+            "Vulnerability Assessment",
+            "Malware Analysis",
+            "Python",
+            "Web Site Structure Discovery",
+            "Weak Credentials",
+            "Reverse Engineering",
+            "Exploit Modification",
+            "Default Credentials",
+            "Exploit Development",
+            "Port Forwarding",
+            "Forensics",
+            ".NET",
+            "Go"
+        ]
+    },
+    "576": {
+        "name": "Hospital",
+        "os": "Windows",
+        "difficultyText": "Medium",
+        "tags": [
+            "PHP",
+            "Vulnerability Assessment",
+            "User Enumeration",
+            "Fuzzing",
+            "Web Site Structure Discovery",
+            "Arbitrary File Upload",
+            "Misconfiguration",
+            "Apache",
+            "SMB",
+            "Password Cracking",
+            "Powershell",
+            "Web Application",
+            "Injections",
+            "Software & OS exploitation"
+        ]
+    },
+    "577": {
+        "name": "Devvortex",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": [
+            "Web Application",
+            "Databases",
+            "Joomla",
+            "Reconnaissance",
+            "Weak Credentials",
+            "Vulnerability Assessment",
+            "Common Applications",
+            "MySQL",
+            "Configuration Analysis",
+            "Misconfiguration",
+            "Web Site Structure Discovery",
+            "Information Disclosure",
+            "Password Cracking",
+            "Password Reuse"
+        ]
+    },
     "578": {
         "name": "Broker",
         "os": "Linux",
@@ -8389,6 +8457,31 @@
             "System Exploitation",
             "SUDO Exploitation",
             "Privilege Abuse"
+        ]
+    },
+    "580": {
+        "name": "Surveillance",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": [
+            "Injections",
+            "Misconfiguration",
+            "Code Injection",
+            "Password Reuse",
+            "Remote Code Execution",
+            "Databases",
+            "Password Cracking",
+            "Exploit Modification",
+            "Exploit Development",
+            "SUDO Exploitation",
+            "Web Application",
+            "Information Disclosure",
+            "NGINX",
+            "PHP",
+            "Common Applications",
+            "API Abuse",
+            "Port Forwarding",
+            "Log Poisoning"
         ]
     },
     "591": {
