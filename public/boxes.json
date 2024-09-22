@@ -8636,6 +8636,32 @@
             "Web Application"
         ]
     },
+    "586": {
+        "name": "Skyfall",
+        "os": "Linux",
+        "difficultyText": "Insane",
+        "tags": [
+            "JSON",
+            "Configuration Analysis",
+            "vault",
+            "Security Tools",
+            "Custom Applications",
+            "Common Applications",
+            "Bash",
+            "Privilege Abuse",
+            "Bucket Enumeration",
+            "SSH",
+            "Web Application",
+            "NGINX",
+            "Anonymous/Guest Access",
+            "Flask",
+            "Vulnerability Assessment",
+            "Clear Text Credentials",
+            "SUDO Exploitation",
+            "Information Disclosure",
+            "Reconnaissance"
+        ]
+    },
     "587": {
         "name": "Crafty",
         "os": "Windows",
@@ -8748,6 +8774,32 @@
             "Password Cracking"
         ]
     },
+    "592": {
+        "name": "FormulaX",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": [
+            "OpenSSH",
+            "SNMP",
+            "Remote Code Execution",
+            "NGINX",
+            "MongoDB",
+            "Local File Inclusion",
+            "JavaScript",
+            "Common Applications",
+            "Databases",
+            "Python",
+            "OS Command Injection",
+            "Custom Applications",
+            "Cross Site Scripting (XSS)",
+            "Injections",
+            "Reconnaissance",
+            "Bash",
+            "Web Application",
+            "Configuration Analysis",
+            "LibreOffice"
+        ]
+    },
     "593": {
         "name": "WifineticTwo",
         "os": "Linux",
@@ -8828,5 +8880,84 @@
             "Arbitrary File Read",
             "Clear Text Credentials"
         ]
+    },
+    "598": {
+        "name": "Runner",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": [
+            "Weak Authentication",
+            "System Exploitation",
+            "Password Cracking",
+            "Authentication bypass",
+            "Web Application",
+            "TeamCity",
+            "Bash",
+            "Password Reuse",
+            "API Abuse",
+            "Broken Authentication and Authorization",
+            "Remote Code Execution",
+            "NGINX",
+            "User Enumeration",
+            "Docker"
+        ]
+    },
+    "599": {
+        "name": "Intuition",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": [
+            "Local File Inclusion",
+            "Vulnerability Assessment",
+            "Password Cracking",
+            "Analysis of Logs",
+            "Session Management and Hijacking",
+            "Cross Site Request Forgery (CSRF)",
+            "Python",
+            "Reverse Engineering",
+            "Custom Applications",
+            "Clear Text Credentials",
+            "Binary Analysis",
+            "Configuration Analysis",
+            "Reconnaissance",
+            "Web Application",
+            "Flask",
+            "JavaScript",
+            "FTP",
+            "Information Disclosure",
+            "Databases",
+            "User Enumeration",
+            "C",
+            "Ansible",
+            "SQLite"
+        ]
+    },
+    "600": {
+        "name": "Mailing",
+        "os": "Windows",
+        "difficultyText": "Easy",
+        "tags": [
+            "hMailServer",
+            "IIS",
+            "WinRM",
+            "Password Cracking",
+            "Weak Credentials",
+            "Python",
+            "Custom Applications",
+            "Common Applications",
+            "SMB",
+            "Configuration Analysis",
+            "Web Application",
+            "Reconnaissance",
+            "Bash",
+            "Powershell",
+            "Directory Traversal"
+        ]
+    },
+    "601": {
+        "name": "SolarLab",
+        "os": "Windows",
+        "difficultyText": "Medium",
+        "tags": []
     }
 }
