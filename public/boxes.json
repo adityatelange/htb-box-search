@@ -8845,6 +8845,12 @@
             "Session Management and Hijacking"
         ]
     },
+    "595": {
+        "name": "Mist",
+        "os": "Windows",
+        "difficultyText": "Insane",
+        "tags": []
+    },
     "596": {
         "name": "IClean",
         "os": "Linux",
@@ -8957,6 +8963,66 @@
     "601": {
         "name": "SolarLab",
         "os": "Windows",
+        "difficultyText": "Medium",
+        "tags": []
+    },
+    "603": {
+        "name": "BoardLight",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": []
+    },
+    "604": {
+        "name": "Freelancer",
+        "os": "Windows",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "605": {
+        "name": "Blurry",
+        "os": "Linux",
+        "difficultyText": "Medium",
+        "tags": []
+    },
+    "608": {
+        "name": "Editorial",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": []
+    },
+    "611": {
+        "name": "Axlle",
+        "os": "Windows",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "613": {
+        "name": "PermX",
+        "os": "Linux",
+        "difficultyText": "Easy",
+        "tags": []
+    },
+    "614": {
+        "name": "Blazorized",
+        "os": "Windows",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "619": {
+        "name": "Resource",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "621": {
+        "name": "Lantern",
+        "os": "Linux",
+        "difficultyText": "Hard",
+        "tags": []
+    },
+    "629": {
+        "name": "EvilCUPS",
+        "os": "Linux",
         "difficultyText": "Medium",
         "tags": []
     }
