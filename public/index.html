@@ -279,7 +279,7 @@
                         }
 
                         function getUniqueDifficulties(data) {
-                            const allDifficulties = Object.values(data).map(item => item.difficultyText);
+                            const allDifficulties = Object.values(data).map(item => item.difficulty);
                             const uniqueDifficulties = [...new Set(allDifficulties)];
                             return uniqueDifficulties;
                         }
@@ -296,7 +296,7 @@
                                 return (
                                     (searchText === '' || Object.values(item).some(value => value.toString().toLowerCase().includes(searchText))) &&
                                     (filterOs === '' || item.os.toLowerCase() === filterOs.toLowerCase()) &&
-                                    (filterDifficulty === '' || item.difficultyText.toLowerCase() === filterDifficulty.toLowerCase()) &&
+                                    (filterDifficulty === '' || item.difficulty.toLowerCase() === filterDifficulty.toLowerCase()) &&
                                     (filterTag === '' || tags.includes(filterTag.toLowerCase()))
                                 );
                             });

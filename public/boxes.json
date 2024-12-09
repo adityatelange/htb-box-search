@@ -2,7 +2,7 @@
     "1": {
         "name": "Lame",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "SAMBA",
             "Network",
@@ -17,7 +17,7 @@
     "2": {
         "name": "Legacy",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "SAMBA",
             "Network",
@@ -32,7 +32,7 @@
     "3": {
         "name": "Devel",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "IIS",
             "ASP",
@@ -47,7 +47,7 @@
     "4": {
         "name": "Popcorn",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Apache",
@@ -63,7 +63,7 @@
     "5": {
         "name": "Beep",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "PHP",
@@ -79,7 +79,7 @@
     "6": {
         "name": "Optimum",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "HFS",
             "Python",
@@ -95,7 +95,7 @@
     "7": {
         "name": "Bastard",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Drupal",
@@ -113,7 +113,7 @@
     "8": {
         "name": "Tenten",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Apache",
@@ -134,7 +134,7 @@
     "9": {
         "name": "Arctic",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "CMS",
             "Web",
@@ -152,7 +152,7 @@
     "11": {
         "name": "Cronos",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Apache",
@@ -173,7 +173,7 @@
     "13": {
         "name": "Grandpa",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "IIS",
             "ASP",
@@ -190,7 +190,7 @@
     "14": {
         "name": "Granny",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "WebDav",
             "ASP",
@@ -207,7 +207,7 @@
     "15": {
         "name": "October",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Apache",
@@ -224,7 +224,7 @@
     "17": {
         "name": "Brainfuck",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "SSL",
             "Web",
@@ -243,7 +243,7 @@
     "18": {
         "name": "Lazy",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "PHP",
@@ -257,7 +257,7 @@
     "19": {
         "name": "Sneaky",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "PHP",
@@ -282,7 +282,7 @@
     "20": {
         "name": "Joker",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "TFTP",
             "Squid",
@@ -298,7 +298,7 @@
     "21": {
         "name": "Haircut",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "NGINX",
@@ -315,7 +315,7 @@
     "22": {
         "name": "Holiday",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Javascript",
             "SQLite",
@@ -335,7 +335,7 @@
     "26": {
         "name": "Bank",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "PHP",
             "Web",
@@ -354,7 +354,7 @@
     "27": {
         "name": "Europa",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "PHP",
@@ -373,7 +373,7 @@
     "37": {
         "name": "Calamity",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "PHP",
             "Apache",
@@ -396,7 +396,7 @@
     "42": {
         "name": "Charon",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "PHP",
             "CMS",
@@ -417,7 +417,7 @@
     "45": {
         "name": "Jail",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "C",
             "NFS",
@@ -450,7 +450,7 @@
     "48": {
         "name": "Blocky",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -470,7 +470,7 @@
     "51": {
         "name": "Blue",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -486,7 +486,7 @@
     "54": {
         "name": "Nineveh",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "PhpLiteAdmin",
@@ -509,7 +509,7 @@
     "57": {
         "name": "Apocalyst",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Common Applications",
@@ -526,7 +526,7 @@
     "58": {
         "name": "Shrek",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Elliptic Curve",
             "Web",
@@ -544,7 +544,7 @@
     "64": {
         "name": "Mirai",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Pi-Hole",
             "Network",
@@ -562,7 +562,7 @@
     "85": {
         "name": "SolidState",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache James",
             "POP",
@@ -577,7 +577,7 @@
     "98": {
         "name": "Mantis",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Kerberos",
             "Web",
@@ -596,7 +596,7 @@
     "101": {
         "name": "Kotarak",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Tomcat",
             "Web",
@@ -615,7 +615,7 @@
     "108": {
         "name": "Shocker",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "Web",
@@ -635,7 +635,7 @@
     "109": {
         "name": "Minion",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Powershell",
             "IIS",
@@ -657,7 +657,7 @@
     "110": {
         "name": "Node",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Javascript",
             "Python",
@@ -678,7 +678,7 @@
     "111": {
         "name": "Sense",
         "os": "OpenBSD",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "LightHTTPD",
             "PHP",
@@ -698,7 +698,7 @@
     "112": {
         "name": "Enterprise",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "Python",
@@ -727,7 +727,7 @@
     "113": {
         "name": "Tally",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "C",
             "Javascript",
@@ -757,7 +757,7 @@
     "114": {
         "name": "Jeeves",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Powershell",
             "IIS",
@@ -781,7 +781,7 @@
     "115": {
         "name": "Ariekei",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web",
             "Network",
@@ -792,7 +792,7 @@
     "116": {
         "name": "Fulcrum",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Powershell",
             "NGINX",
@@ -816,7 +816,7 @@
     "117": {
         "name": "Inception",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Squid",
             "Apache",
@@ -841,7 +841,7 @@
     "118": {
         "name": "Bashed",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "Web",
@@ -857,7 +857,7 @@
     "119": {
         "name": "FluxCapacitor",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "WAF",
             "Web",
@@ -874,7 +874,7 @@
     "120": {
         "name": "CrimeStoppers",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "PHP",
             "Thunderbird",
@@ -900,7 +900,7 @@
     "121": {
         "name": "Nibbles",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Nibbleblog",
             "Web",
@@ -919,7 +919,7 @@
     "122": {
         "name": "Nightmare",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "SFTP",
             "OpenSSH",
@@ -943,7 +943,7 @@
     "123": {
         "name": "Chatterbox",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "AChat",
             "Network",
@@ -962,7 +962,7 @@
     "124": {
         "name": "Falafel",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -985,7 +985,7 @@
     "126": {
         "name": "Aragog",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Common Applications",
@@ -1002,7 +1002,7 @@
     "127": {
         "name": "Valentine",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "SSL",
             "Web",
@@ -1016,7 +1016,7 @@
     "128": {
         "name": "Bart",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Powershell",
@@ -1039,7 +1039,7 @@
     "129": {
         "name": "Stratosphere",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache Struts",
             "Python",
@@ -1055,7 +1055,7 @@
     "130": {
         "name": "Celestial",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Javascript",
             "Web",
@@ -1069,7 +1069,7 @@
     "131": {
         "name": "Silo",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "ASP",
             "IIS",
@@ -1091,7 +1091,7 @@
     "132": {
         "name": "Poison",
         "os": "FreeBSD",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "VNC",
@@ -1112,7 +1112,7 @@
     "133": {
         "name": "Rabbit",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "OpenOffice",
             "VBScript",
@@ -1142,7 +1142,7 @@
     "134": {
         "name": "Canape",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Flask",
             "Python",
@@ -1164,7 +1164,7 @@
     "135": {
         "name": "Olympus",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "XDebug",
             "WPA",
@@ -1190,7 +1190,7 @@
     "136": {
         "name": "Sunday",
         "os": "Solaris",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Finger",
             "Web",
@@ -1210,7 +1210,7 @@
     "137": {
         "name": "Fighter",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Powershell",
             "EXE",
@@ -1236,7 +1236,7 @@
     "138": {
         "name": "TartarSauce",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "C",
             "PHP",
@@ -1256,7 +1256,7 @@
     "139": {
         "name": "Dropzone",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "TFTP",
             "Ruby",
@@ -1278,7 +1278,7 @@
     "140": {
         "name": "DevOops",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Gunicorn",
             "Python",
@@ -1294,7 +1294,7 @@
     "141": {
         "name": "Smasher",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Tiny Web Server",
             "Python",
@@ -1321,7 +1321,7 @@
     "142": {
         "name": "Bounty",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "IIS",
             "ASP",
@@ -1338,7 +1338,7 @@
     "143": {
         "name": "Reel",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Powershell",
             "VBScript",
@@ -1366,7 +1366,7 @@
     "144": {
         "name": "Jerry",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Tomcat",
             "Web",
@@ -1386,7 +1386,7 @@
     "145": {
         "name": "Mischief",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "SNMP",
             "Python",
@@ -1409,7 +1409,7 @@
     "146": {
         "name": "Hawk",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Drupal",
@@ -1432,7 +1432,7 @@
     "147": {
         "name": "Reddish",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Redis",
             "Rsync",
@@ -1459,7 +1459,7 @@
     "148": {
         "name": "Active",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Kerberos",
             "Network",
@@ -1481,7 +1481,7 @@
     "149": {
         "name": "Waldo",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Web",
@@ -1499,7 +1499,7 @@
     "150": {
         "name": "Dab",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Python",
             "NGINX",
@@ -1526,7 +1526,7 @@
     "151": {
         "name": "SecNotes",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "IIS",
@@ -1548,7 +1548,7 @@
     "152": {
         "name": "Oz",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Apache",
             "PHP",
@@ -1573,7 +1573,7 @@
     "153": {
         "name": "Giddy",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Powershell",
             "WinRM",
@@ -1594,7 +1594,7 @@
     "154": {
         "name": "Ypuffy",
         "os": "Other",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "LDAP",
             "Certificates",
@@ -1614,7 +1614,7 @@
     "155": {
         "name": "Carrier",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "BGP",
             "SNMP",
@@ -1635,7 +1635,7 @@
     "156": {
         "name": "Access",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Microsoft Access",
             "DPAPI",
@@ -1658,7 +1658,7 @@
     "157": {
         "name": "Ethereal",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Powershell",
             "Certificates",
@@ -1678,7 +1678,7 @@
     "158": {
         "name": "Frolic",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "ELF",
             "PHP",
@@ -1705,7 +1705,7 @@
     "159": {
         "name": "Zipper",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Zabbix",
             "Web",
@@ -1727,7 +1727,7 @@
     "160": {
         "name": "Curling",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "PHP",
             "Joomla",
@@ -1744,7 +1744,7 @@
     "161": {
         "name": "Vault",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Apache",
@@ -1770,7 +1770,7 @@
     "162": {
         "name": "RedCross",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -1796,7 +1796,7 @@
     "163": {
         "name": "Irked",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Vulnerability Assessment",
             "Steganography",
@@ -1815,7 +1815,7 @@
     "164": {
         "name": "BigHead",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "PHP",
             "KeePass",
@@ -1843,7 +1843,7 @@
     "165": {
         "name": "Teacher",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Moodle",
             "CMS",
@@ -1862,7 +1862,7 @@
     "166": {
         "name": "Lightweight",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "LDAP",
             "Web",
@@ -1885,7 +1885,7 @@
     "167": {
         "name": "Chaos",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "Python",
@@ -1914,7 +1914,7 @@
     "168": {
         "name": "Conceal",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "IPSec",
             "Network",
@@ -1940,7 +1940,7 @@
     "169": {
         "name": "Sizzle",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "IIS",
             "Kerberos",
@@ -1966,7 +1966,7 @@
     "170": {
         "name": "Help",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "GraphQL",
             "Web",
@@ -1993,7 +1993,7 @@
     "171": {
         "name": "FluJab",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "SMTP",
             "OpenSSL",
@@ -2017,7 +2017,7 @@
     "172": {
         "name": "CTF",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "LDAP",
             "OTP",
@@ -2043,7 +2043,7 @@
     "173": {
         "name": "FriendZone",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "PHP",
             "Web",
@@ -2068,7 +2068,7 @@
     "175": {
         "name": "Querier",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Powershell",
             "VBScript",
@@ -2094,7 +2094,7 @@
     "176": {
         "name": "Hackback",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "PHP",
             "ASP",
@@ -2126,7 +2126,7 @@
     "177": {
         "name": "Netmon",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -2142,7 +2142,7 @@
     "178": {
         "name": "Fortune",
         "os": "Other",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Certificates",
             "NFS",
@@ -2166,7 +2166,7 @@
     "179": {
         "name": "Arkham",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache MyFaces",
             "Powershell",
@@ -2191,7 +2191,7 @@
     "180": {
         "name": "Helpline",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Powershell",
             "PostgreSQL",
@@ -2224,7 +2224,7 @@
     "181": {
         "name": "LaCasaDePapel",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Certificates",
             "Network",
@@ -2246,7 +2246,7 @@
     "183": {
         "name": "Kryptos",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "PHP",
             "RC4",
@@ -2281,7 +2281,7 @@
     "184": {
         "name": "Unattended",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "MySQL",
@@ -2306,7 +2306,7 @@
     "185": {
         "name": "OneTwoSeven",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "SFTP",
             "PHP",
@@ -2328,7 +2328,7 @@
     "186": {
         "name": "Bastion",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -2345,7 +2345,7 @@
     "187": {
         "name": "Ghoul",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Custom",
             "PHP",
@@ -2374,7 +2374,7 @@
     "188": {
         "name": "SwagShop",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Magento",
             "Web",
@@ -2390,7 +2390,7 @@
     "189": {
         "name": "Ellingson",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "NGINX",
             "Python",
@@ -2412,7 +2412,7 @@
     "190": {
         "name": "Luke",
         "os": "FreeBSD",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Web",
@@ -2429,7 +2429,7 @@
     "191": {
         "name": "Smasher2",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "C",
             "Kernel",
@@ -2453,7 +2453,7 @@
     "192": {
         "name": "Writeup",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "MySQL",
             "PHP",
@@ -2473,7 +2473,7 @@
     "193": {
         "name": "Chainsaw",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Blockchain",
             "Solidity",
@@ -2495,7 +2495,7 @@
     "194": {
         "name": "Jarvis",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "Web",
@@ -2515,7 +2515,7 @@
     "195": {
         "name": "Haystack",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "ELK",
             "Javascript",
@@ -2538,7 +2538,7 @@
     "196": {
         "name": "Player",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "PHP",
             "SSH",
@@ -2559,7 +2559,7 @@
     "197": {
         "name": "Craft",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Python",
             "OTP",
@@ -2580,7 +2580,7 @@
     "198": {
         "name": "RE",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Yara",
             "VBScript",
@@ -2598,7 +2598,7 @@
     "199": {
         "name": "Safe",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "ELF",
             "Vulnerability Assessment",
@@ -2614,7 +2614,7 @@
     "200": {
         "name": "Rope",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Custom",
             "Python",
@@ -2636,7 +2636,7 @@
     "201": {
         "name": "Heist",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "IIS",
             "Web",
@@ -2662,7 +2662,7 @@
     "202": {
         "name": "Scavenger",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "C",
             "Whois",
@@ -2695,7 +2695,7 @@
     "203": {
         "name": "Networked",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "PHP",
             "Custom",
@@ -2711,7 +2711,7 @@
     "204": {
         "name": "Zetta",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "IPv6",
             "Rsync",
@@ -2732,7 +2732,7 @@
     "207": {
         "name": "Bitlab",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Javascript",
             "PHP",
@@ -2757,7 +2757,7 @@
     "208": {
         "name": "Wall",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "Python",
@@ -2780,7 +2780,7 @@
     "209": {
         "name": "Bankrobber",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Javascript",
             "Apache",
@@ -2809,7 +2809,7 @@
     "210": {
         "name": "Json",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "IIS",
             "C#",
@@ -2834,7 +2834,7 @@
     "211": {
         "name": "Sniper",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "IIS",
             "PHP",
@@ -2854,7 +2854,7 @@
     "212": {
         "name": "Forest",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "LDAP",
             "Exchange",
@@ -2878,7 +2878,7 @@
     "213": {
         "name": "Registry",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "NGINX",
             "CMS",
@@ -2900,7 +2900,7 @@
     "214": {
         "name": "Mango",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "MongoDB",
             "NoSQL",
@@ -2920,7 +2920,7 @@
     "215": {
         "name": "Postman",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Redis",
             "Webmin",
@@ -2939,7 +2939,7 @@
     "216": {
         "name": "AI",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Custom",
             "JDWP",
@@ -2959,7 +2959,7 @@
     "217": {
         "name": "Traverxec",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Nostromo",
             "Web",
@@ -2976,7 +2976,7 @@
     "218": {
         "name": "Control",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Powershell",
             "IIS",
@@ -2999,7 +2999,7 @@
     "219": {
         "name": "Obscurity",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Custom",
             "Python",
@@ -3018,7 +3018,7 @@
     "220": {
         "name": "Resolute",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -3038,7 +3038,7 @@
     "221": {
         "name": "PlayerTwo",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "OTP",
             "PHP",
@@ -3071,7 +3071,7 @@
     "222": {
         "name": "OpenAdmin",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -3098,7 +3098,7 @@
     "223": {
         "name": "Monteverde",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Powershell",
             "Azure",
@@ -3123,7 +3123,7 @@
     "224": {
         "name": "Patents",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Apache",
             "PHP",
@@ -3153,7 +3153,7 @@
     "225": {
         "name": "Nest",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "C#",
             "Vulnerability Assessment",
@@ -3176,7 +3176,7 @@
     "227": {
         "name": "Fatty",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Custom",
             "Web",
@@ -3198,7 +3198,7 @@
     "229": {
         "name": "Sauna",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -3219,7 +3219,7 @@
     "230": {
         "name": "Book",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "SSH",
             "Javascript",
@@ -3240,7 +3240,7 @@
     "231": {
         "name": "Oouch",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Python",
             "SSH",
@@ -3271,7 +3271,7 @@
     "232": {
         "name": "Multimaster",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "LDAP",
             "Python",
@@ -3314,7 +3314,7 @@
     "233": {
         "name": "Traceback",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "PHP",
@@ -3335,7 +3335,7 @@
     "234": {
         "name": "Remote",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "NFS",
             "Powershell",
@@ -3361,7 +3361,7 @@
     "235": {
         "name": "Cascade",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Powershell",
             "LDAP",
@@ -3394,7 +3394,7 @@
     "239": {
         "name": "ForwardSlash",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Apache",
             "PHP",
@@ -3426,7 +3426,7 @@
     "240": {
         "name": "ServMon",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Powershell",
             "Apache",
@@ -3455,7 +3455,7 @@
     "241": {
         "name": "Magic",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Apache",
@@ -3477,7 +3477,7 @@
     "244": {
         "name": "Quick",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "PHP",
             "Apache",
@@ -3498,7 +3498,7 @@
     "248": {
         "name": "Admirer",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "PHP",
@@ -3519,7 +3519,7 @@
     "251": {
         "name": "Cache",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "PHP",
@@ -3546,7 +3546,7 @@
     "252": {
         "name": "Travel",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "PHP",
             "NGINX",
@@ -3567,7 +3567,7 @@
     "253": {
         "name": "Dyplesher",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Apache",
             "PHP",
@@ -3601,7 +3601,7 @@
     "254": {
         "name": "Blunder",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "CMS",
             "Python",
@@ -3622,7 +3622,7 @@
     "255": {
         "name": "Blackfield",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Kerberos",
             "LDAP",
@@ -3645,7 +3645,7 @@
     "256": {
         "name": "Fuse",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Powershell",
             "IIS",
@@ -3668,7 +3668,7 @@
     "259": {
         "name": "Tabby",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Tomcat",
             "JSP",
@@ -3687,7 +3687,7 @@
     "260": {
         "name": "RopeTwo",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "C",
             "NGINX",
@@ -3716,7 +3716,7 @@
     "261": {
         "name": "Intense",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "C",
             "Python",
@@ -3743,7 +3743,7 @@
     "262": {
         "name": "SneakyMailer",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PyPi",
             "Network",
@@ -3764,7 +3764,7 @@
     "263": {
         "name": "Buff",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "Python",
@@ -3780,7 +3780,7 @@
     "267": {
         "name": "OpenKeyS",
         "os": "OpenBSD",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Web",
@@ -3796,7 +3796,7 @@
     "268": {
         "name": "Unbalanced",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Rsync",
             "Python",
@@ -3823,7 +3823,7 @@
     "269": {
         "name": "Laser",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Printer",
             "PJL",
@@ -3859,7 +3859,7 @@
     "270": {
         "name": "Worker",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Azure DevOps",
             "ASP",
@@ -3877,7 +3877,7 @@
     "271": {
         "name": "Omni",
         "os": "Other",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Powershell",
             "Web",
@@ -3896,7 +3896,7 @@
     "274": {
         "name": "Feline",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Apache",
             "Tomcat",
@@ -3919,7 +3919,7 @@
     "275": {
         "name": "Passage",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "PHP",
@@ -3937,7 +3937,7 @@
     "276": {
         "name": "Compromised",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Apache",
             "PHP",
@@ -3961,7 +3961,7 @@
     "277": {
         "name": "CrossFit",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Javascript",
             "Apache",
@@ -3990,7 +3990,7 @@
     "278": {
         "name": "Doctor",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Splunk",
             "Web",
@@ -4009,7 +4009,7 @@
     "281": {
         "name": "Reel2",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Powershell",
             "OWA",
@@ -4042,7 +4042,7 @@
     "282": {
         "name": "Jewel",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Rails",
             "Ruby",
@@ -4061,7 +4061,7 @@
     "283": {
         "name": "Bucket",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "DynamoDB",
             "PHP",
@@ -4085,7 +4085,7 @@
     "286": {
         "name": "Time",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -4101,7 +4101,7 @@
     "296": {
         "name": "APT",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Kerberos",
             "Python",
@@ -4128,7 +4128,7 @@
     "297": {
         "name": "Academy",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "PHP",
@@ -4152,7 +4152,7 @@
     "298": {
         "name": "Laboratory",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Ruby",
             "Rails",
@@ -4175,7 +4175,7 @@
     "299": {
         "name": "Cereal",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "IIS",
             "C#",
@@ -4198,7 +4198,7 @@
     "302": {
         "name": "Luanne",
         "os": "Other",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Bozohttpd",
             "Lua",
@@ -4222,7 +4222,7 @@
     "303": {
         "name": "Sharp",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Python",
             ".NET",
@@ -4247,7 +4247,7 @@
     "304": {
         "name": "Ready",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "GitLab",
             "Web",
@@ -4270,7 +4270,7 @@
     "307": {
         "name": "Attended",
         "os": "OpenBSD",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "SMTP",
             "Python",
@@ -4295,7 +4295,7 @@
     "308": {
         "name": "Delivery",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -4310,7 +4310,7 @@
     "309": {
         "name": "Tenet",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Web",
@@ -4331,7 +4331,7 @@
     "310": {
         "name": "Tentacle",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Squid",
             "WPAD",
@@ -4352,7 +4352,7 @@
     "313": {
         "name": "Sink",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web",
             "Forensics",
@@ -4378,7 +4378,7 @@
     "314": {
         "name": "ScriptKiddie",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Metasploit",
             "Ruby",
@@ -4398,7 +4398,7 @@
     "315": {
         "name": "Ophiuchi",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Tomcat",
             "Go",
@@ -4417,7 +4417,7 @@
     "316": {
         "name": "Breadcrumbs",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Apache",
             "ELF",
@@ -4442,7 +4442,7 @@
     "317": {
         "name": "Spectra",
         "os": "Other",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "PHP",
             "Web",
@@ -4459,7 +4459,7 @@
     "320": {
         "name": "TheNotebook",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "NGINX",
@@ -4480,7 +4480,7 @@
     "321": {
         "name": "Proper",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Go",
             "IIS",
@@ -4515,7 +4515,7 @@
     "322": {
         "name": "CrossFitTwo",
         "os": "OpenBSD",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "WebSockets",
             "Ybikey",
@@ -4540,7 +4540,7 @@
     "323": {
         "name": "Armageddon",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "PHP",
             "Drupal",
@@ -4560,7 +4560,7 @@
     "335": {
         "name": "Schooled",
         "os": "FreeBSD",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -4586,7 +4586,7 @@
     "338": {
         "name": "Unobtainium",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Javascript",
             "Web",
@@ -4608,7 +4608,7 @@
     "339": {
         "name": "Toolbox",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "Web",
@@ -4631,7 +4631,7 @@
     "340": {
         "name": "Atom",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Electron",
             "Web",
@@ -4652,7 +4652,7 @@
     "341": {
         "name": "Monitors",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Network",
@@ -4683,7 +4683,7 @@
     "344": {
         "name": "Love",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Apache",
             "MySQL",
@@ -4704,7 +4704,7 @@
     "345": {
         "name": "pivotapi",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -4744,7 +4744,7 @@
     "346": {
         "name": "Pit",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "SNMP",
             "SELinux",
@@ -4767,7 +4767,7 @@
     "347": {
         "name": "Knife",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "PHP",
             "Apache",
@@ -4784,7 +4784,7 @@
     "350": {
         "name": "Spider",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Person",
@@ -4807,7 +4807,7 @@
     "351": {
         "name": "Cap",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Python",
             "Web",
@@ -4827,7 +4827,7 @@
     "352": {
         "name": "dynstr",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Forensics",
@@ -4848,7 +4848,7 @@
     "355": {
         "name": "Static",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Network",
@@ -4887,7 +4887,7 @@
     "356": {
         "name": "Explore",
         "os": "Android",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Mobile",
             "Vulnerability Assessment",
@@ -4904,7 +4904,7 @@
     "357": {
         "name": "Intelligence",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -4929,7 +4929,7 @@
     "358": {
         "name": "Seal",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -4951,7 +4951,7 @@
     "359": {
         "name": "BountyHunter",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Python",
             "Web",
@@ -4967,7 +4967,7 @@
     "360": {
         "name": "Pikaboo",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Perl",
             "Apache",
@@ -4989,7 +4989,7 @@
     "361": {
         "name": "Writer",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Python",
             "Django",
@@ -5011,7 +5011,7 @@
     "371": {
         "name": "Anubis",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Powershell"
         ]
@@ -5019,7 +5019,7 @@
     "372": {
         "name": "Developer",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Python",
             "Django",
@@ -5046,7 +5046,7 @@
     "373": {
         "name": "Previse",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5067,7 +5067,7 @@
     "374": {
         "name": "Horizontall",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5086,7 +5086,7 @@
     "375": {
         "name": "EarlyAccess",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Python",
             "PHP",
@@ -5122,7 +5122,7 @@
     "376": {
         "name": "Forge",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Python",
             "Apache",
@@ -5140,7 +5140,7 @@
     "378": {
         "name": "Gobox",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5164,7 +5164,7 @@
     "379": {
         "name": "Stacked",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Javascript",
             "Network",
@@ -5187,7 +5187,7 @@
     "382": {
         "name": "Validation",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Injection",
@@ -5200,7 +5200,7 @@
     "384": {
         "name": "Bolt",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Network",
@@ -5228,7 +5228,7 @@
     "387": {
         "name": "Driver",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Network",
@@ -5248,7 +5248,7 @@
     "388": {
         "name": "Hancliffe",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5284,7 +5284,7 @@
     "389": {
         "name": "Jarmis",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Network",
@@ -5298,7 +5298,7 @@
     "398": {
         "name": "Devzat",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5323,7 +5323,7 @@
     "399": {
         "name": "Overflow",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5352,7 +5352,7 @@
     "400": {
         "name": "Antique",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Telnet",
             "SNMP",
@@ -5374,7 +5374,7 @@
     "401": {
         "name": "Return",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "WinRM",
             "Network",
@@ -5395,7 +5395,7 @@
     "408": {
         "name": "Secret",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Javascript",
             "Git",
@@ -5413,7 +5413,7 @@
     "409": {
         "name": "Toby",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "PHP",
             "Python",
@@ -5449,7 +5449,7 @@
     "410": {
         "name": "Shibboleth",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "IPMI",
             "Web",
@@ -5472,7 +5472,7 @@
     "413": {
         "name": "Spooktrol",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "ELF",
             "Web",
@@ -5499,7 +5499,7 @@
     "414": {
         "name": "Nunchucks",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5515,7 +5515,7 @@
     "415": {
         "name": "Unicode",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Python",
             "Web",
@@ -5537,7 +5537,7 @@
     "416": {
         "name": "Backdoor",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "PHP",
             "Web",
@@ -5554,7 +5554,7 @@
     "417": {
         "name": "Fingerprint",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Flask",
             "HQL",
@@ -5590,7 +5590,7 @@
     "418": {
         "name": "Union",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Custom",
@@ -5604,7 +5604,7 @@
     "421": {
         "name": "Timing",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Javascript",
             "Forensics",
@@ -5627,7 +5627,7 @@
     "422": {
         "name": "Search",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Powershell",
             "IIS",
@@ -5652,7 +5652,7 @@
     "423": {
         "name": "Pandora",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Network",
@@ -5674,7 +5674,7 @@
     "427": {
         "name": "AdmirerToo",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "PHP",
             "Web",
@@ -5695,7 +5695,7 @@
     "428": {
         "name": "LogForge",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5710,7 +5710,7 @@
     "429": {
         "name": "Meta",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5730,7 +5730,7 @@
     "430": {
         "name": "NodeBlog",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web Application",
             "Databases",
@@ -5754,7 +5754,7 @@
     "431": {
         "name": "Scanned",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Vulnerability Assessment",
             "Source Code Analysis",
@@ -5780,7 +5780,7 @@
     "432": {
         "name": "Paper",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5798,7 +5798,7 @@
     "437": {
         "name": "Flustered",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5824,7 +5824,7 @@
     "438": {
         "name": "Acute",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Powershell",
             "Network",
@@ -5857,7 +5857,7 @@
     "439": {
         "name": "Undetected",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Web",
@@ -5883,7 +5883,7 @@
     "440": {
         "name": "Pressed",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -5903,7 +5903,7 @@
     "442": {
         "name": "Epsilon",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Python",
             "Web",
@@ -5924,7 +5924,7 @@
     "443": {
         "name": "SteamCloud",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Network",
             "Virtualization",
@@ -5941,7 +5941,7 @@
     "444": {
         "name": "RouterSpace",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Network",
@@ -5955,7 +5955,7 @@
     "446": {
         "name": "GoodGames",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Network",
@@ -5979,7 +5979,7 @@
     "447": {
         "name": "Object",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Network",
@@ -6000,7 +6000,7 @@
     "448": {
         "name": "Phoenix",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "PHP",
             "Web",
@@ -6038,7 +6038,7 @@
     "450": {
         "name": "Catch",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Apache",
             "Mobile",
@@ -6062,7 +6062,7 @@
     "451": {
         "name": "Perspective",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "IIS",
             "ASP",
@@ -6088,7 +6088,7 @@
     "452": {
         "name": "Timelapse",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Network",
             "Active Directory",
@@ -6106,7 +6106,7 @@
     "456": {
         "name": "Retired",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6136,7 +6136,7 @@
     "457": {
         "name": "Ransom",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "JSON",
             "Laravel",
@@ -6157,7 +6157,7 @@
     "458": {
         "name": "Talkative",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Network",
@@ -6192,7 +6192,7 @@
     "459": {
         "name": "Hathor",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web",
             "Network",
@@ -6229,7 +6229,7 @@
     "460": {
         "name": "Altered",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web Application",
             "Injections",
@@ -6245,7 +6245,7 @@
     "462": {
         "name": "Backend",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web Application",
             "Custom Applications",
@@ -6266,7 +6266,7 @@
     "463": {
         "name": "Late",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Injection",
@@ -6282,7 +6282,7 @@
     "464": {
         "name": "OverGraph",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Apache",
             "GraphQL",
@@ -6319,7 +6319,7 @@
     "467": {
         "name": "Noter",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Python",
             "MySQL",
@@ -6347,7 +6347,7 @@
     "468": {
         "name": "Response",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web",
             "Forensics",
@@ -6383,7 +6383,7 @@
     "469": {
         "name": "BackendTwo",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Weak Permissions",
             "Mass Assignment",
@@ -6404,7 +6404,7 @@
     "471": {
         "name": "OpenSource",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6429,7 +6429,7 @@
     "473": {
         "name": "Seventeen",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6457,7 +6457,7 @@
     "474": {
         "name": "StreamIO",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Network",
@@ -6491,7 +6491,7 @@
     "476": {
         "name": "Scrambled",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -6526,7 +6526,7 @@
     "477": {
         "name": "Trick",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6547,7 +6547,7 @@
     "478": {
         "name": "Carpediem",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Network",
@@ -6573,7 +6573,7 @@
     "480": {
         "name": "Faculty",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6601,7 +6601,7 @@
     "481": {
         "name": "RedPanda",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6620,7 +6620,7 @@
     "482": {
         "name": "Extension",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6647,7 +6647,7 @@
     "483": {
         "name": "Shared",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6674,7 +6674,7 @@
     "484": {
         "name": "Support",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -6706,7 +6706,7 @@
     "485": {
         "name": "Moderators",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6731,7 +6731,7 @@
     "490": {
         "name": "Outdated",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -6757,7 +6757,7 @@
     "491": {
         "name": "Health",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6785,7 +6785,7 @@
     "492": {
         "name": "Vessel",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Reversing",
@@ -6811,7 +6811,7 @@
     "493": {
         "name": "UpDown",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Custom Applications",
@@ -6835,7 +6835,7 @@
     "495": {
         "name": "Sekhmet",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web",
             "Network",
@@ -6867,7 +6867,7 @@
     "496": {
         "name": "Shoppy",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6895,7 +6895,7 @@
     "498": {
         "name": "Absolute",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web",
             "Active Directory",
@@ -6925,7 +6925,7 @@
     "499": {
         "name": "Ambassador",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6948,7 +6948,7 @@
     "500": {
         "name": "Photobomb",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -6965,7 +6965,7 @@
     "502": {
         "name": "RainyDay",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Network",
@@ -6998,7 +6998,7 @@
     "503": {
         "name": "Awkward",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -7028,7 +7028,7 @@
     "504": {
         "name": "MetaTwo",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -7054,7 +7054,7 @@
     "510": {
         "name": "Flight",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Custom Applications",
@@ -7091,7 +7091,7 @@
     "511": {
         "name": "Forgot",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -7116,7 +7116,7 @@
     "512": {
         "name": "Derailed",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web",
             "Databases",
@@ -7143,7 +7143,7 @@
     "513": {
         "name": "Precious",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Vulnerability Assessment",
@@ -7166,7 +7166,7 @@
     "514": {
         "name": "Squashed",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Network",
             "Vulnerability Assessment",
@@ -7184,7 +7184,7 @@
     "517": {
         "name": "Pollution",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Databases",
@@ -7219,7 +7219,7 @@
     "518": {
         "name": "Mentor",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Common Applications",
@@ -7249,7 +7249,7 @@
     "519": {
         "name": "Soccer",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Databases",
@@ -7276,7 +7276,7 @@
     "521": {
         "name": "BroScience",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Custom Applications",
@@ -7303,7 +7303,7 @@
     "523": {
         "name": "Stocker",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Databases",
@@ -7323,7 +7323,7 @@
     "525": {
         "name": "Investigation",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Injection",
@@ -7348,7 +7348,7 @@
     "526": {
         "name": "Encoding",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Custom Applications",
@@ -7367,7 +7367,7 @@
     "527": {
         "name": "Interface",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web"
         ]
@@ -7375,7 +7375,7 @@
     "529": {
         "name": "PikaTwoo",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web",
             "Authorization",
@@ -7418,7 +7418,7 @@
     "530": {
         "name": "Bagel",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Werkzeug",
@@ -7435,7 +7435,7 @@
     "531": {
         "name": "Escape",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Network",
             "Active Directory",
@@ -7460,7 +7460,7 @@
     "532": {
         "name": "Agile",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web Application",
             "Custom Applications",
@@ -7481,7 +7481,7 @@
     "533": {
         "name": "Inject",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Injection",
@@ -7504,7 +7504,7 @@
     "534": {
         "name": "Cerberus",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web Application",
             "Injections",
@@ -7525,7 +7525,7 @@
     "535": {
         "name": "Socket",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Injection",
@@ -7552,7 +7552,7 @@
     "536": {
         "name": "Coder",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Forensics",
             "Active Directory",
@@ -7596,7 +7596,7 @@
     "537": {
         "name": "Busqueda",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Common Applications",
@@ -7621,7 +7621,7 @@
     "538": {
         "name": "Mailroom",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web Application",
             "Custom Applications",
@@ -7645,7 +7645,7 @@
     "539": {
         "name": "MonitorsTwo",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Common Applications",
@@ -7665,7 +7665,7 @@
     "540": {
         "name": "OnlyForYou",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web",
             "Injection",
@@ -7699,7 +7699,7 @@
     "541": {
         "name": "Snoopy",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web",
             "Protocols",
@@ -7714,7 +7714,7 @@
     "542": {
         "name": "Format",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web Application",
             "Databases",
@@ -7747,7 +7747,7 @@
     "543": {
         "name": "PC",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Vulnerability Assessment",
             "Injection",
@@ -7770,7 +7770,7 @@
     "544": {
         "name": "Bookworm",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Configuration Analysis",
             "Databases",
@@ -7797,7 +7797,7 @@
     "545": {
         "name": "Jupiter",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Configuration Analysis",
             "Databases",
@@ -7817,7 +7817,7 @@
     "546": {
         "name": "Topology",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Vulnerability Assessment",
             "Injection",
@@ -7837,7 +7837,7 @@
     "547": {
         "name": "TwoMillion",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web",
             "Injection",
@@ -7854,7 +7854,7 @@
     "548": {
         "name": "Sandworm",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Vulnerability Assessment",
             "Injection",
@@ -7880,7 +7880,7 @@
     "549": {
         "name": "Pilgrimage",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Vulnerability Assessment",
             "Databases",
@@ -7910,7 +7910,7 @@
     "550": {
         "name": "Intentions",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web Application",
             "Injections",
@@ -7935,7 +7935,7 @@
     "551": {
         "name": "Sau",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "SUDO Exploitation",
             "Request Baskets",
@@ -7952,7 +7952,7 @@
     "552": {
         "name": "RegistryTwo",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Web Application",
             "Browser",
@@ -7979,7 +7979,7 @@
     "553": {
         "name": "Authority",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web Application",
             "Common Applications",
@@ -8005,7 +8005,7 @@
     "554": {
         "name": "Gofer",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web Application",
             "Broken Authentication and Authorization",
@@ -8036,7 +8036,7 @@
     "555": {
         "name": "Download",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web Application",
             "Databases",
@@ -8062,7 +8062,7 @@
     "556": {
         "name": "Keeper",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "System Exploitation",
             "KeePass",
@@ -8078,7 +8078,7 @@
     "557": {
         "name": "Cybermonday",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Databases",
             "Reconnaissance",
@@ -8105,7 +8105,7 @@
     "558": {
         "name": "Zipping",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Security Tools",
             "Arbitrary File Read",
@@ -8129,13 +8129,13 @@
     "559": {
         "name": "CozyHosting",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": []
     },
     "560": {
         "name": "Rebound",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Active Directory Certificate Services",
             "Password Spraying",
@@ -8169,7 +8169,7 @@
     "563": {
         "name": "Wifinetic",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Vulnerability Assessment",
             "Wireless",
@@ -8193,7 +8193,7 @@
     "564": {
         "name": "Clicker",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web Application",
             "Injections",
@@ -8220,7 +8220,7 @@
     "568": {
         "name": "Visual",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Impersonation",
             "C#",
@@ -8243,7 +8243,7 @@
     "569": {
         "name": "Analytics",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Bash",
             "Password Reuse",
@@ -8269,7 +8269,7 @@
     "570": {
         "name": "Drive",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web Application",
             "Custom Applications",
@@ -8304,7 +8304,7 @@
     "571": {
         "name": "Aero",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Vulnerability Assessment",
             "Malware Analysis",
@@ -8319,13 +8319,13 @@
     "572": {
         "name": "Manager",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": []
     },
     "573": {
         "name": "Appsanity",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "WinRM",
             "Session Management and Hijacking",
@@ -8349,7 +8349,7 @@
     "574": {
         "name": "Codify",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web Application",
             "NodeJS",
@@ -8374,7 +8374,7 @@
     "575": {
         "name": "Napper",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Web Application",
             "Custom Applications",
@@ -8400,7 +8400,7 @@
     "576": {
         "name": "Hospital",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "PHP",
             "Vulnerability Assessment",
@@ -8421,7 +8421,7 @@
     "577": {
         "name": "Devvortex",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web Application",
             "Databases",
@@ -8442,7 +8442,7 @@
     "578": {
         "name": "Broker",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Web Application",
             "Common Applications",
@@ -8462,7 +8462,7 @@
     "579": {
         "name": "Ouija",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "PHP",
             "Vulnerability Assessment",
@@ -8481,7 +8481,7 @@
     "580": {
         "name": "Surveillance",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Injections",
             "Misconfiguration",
@@ -8506,7 +8506,7 @@
     "581": {
         "name": "Corporate",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "Session Management and Hijacking",
             "NGINX",
@@ -8541,7 +8541,7 @@
     "582": {
         "name": "Bizness",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Configuration Analysis",
             "Weak Credentials",
@@ -8564,7 +8564,7 @@
     "583": {
         "name": "Monitored",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web Application",
             "Remote Code Execution",
@@ -8592,7 +8592,7 @@
     "584": {
         "name": "Analysis",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "VBScript",
             "LDAP",
@@ -8617,7 +8617,7 @@
     "585": {
         "name": "Pov",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Configuration Analysis",
             "IIS",
@@ -8639,7 +8639,7 @@
     "586": {
         "name": "Skyfall",
         "os": "Linux",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": [
             "JSON",
             "Configuration Analysis",
@@ -8665,7 +8665,7 @@
     "587": {
         "name": "Crafty",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Remote Code Execution",
             "Injections",
@@ -8683,7 +8683,7 @@
     "588": {
         "name": "Office",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Active Directory",
             "DPAPI",
@@ -8715,7 +8715,7 @@
     "589": {
         "name": "Jab",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Clear Text Credentials",
             "Reconnaissance",
@@ -8737,7 +8737,7 @@
     "590": {
         "name": "Perfection",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Exploit Development",
             "Password Cracking",
@@ -8756,7 +8756,7 @@
     "591": {
         "name": "Builder",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Web Application",
             "Common Applications",
@@ -8777,7 +8777,7 @@
     "592": {
         "name": "FormulaX",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "OpenSSH",
             "SNMP",
@@ -8803,7 +8803,7 @@
     "593": {
         "name": "WifineticTwo",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Authentication",
             "Protocols",
@@ -8826,7 +8826,7 @@
     "594": {
         "name": "Headless",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Cross Site Scripting (XSS)",
             "Cookie Manipulation",
@@ -8848,19 +8848,19 @@
     "595": {
         "name": "Mist",
         "os": "Windows",
-        "difficultyText": "Insane",
+        "difficulty": "Insane",
         "tags": []
     },
     "596": {
         "name": "IClean",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": []
     },
     "597": {
         "name": "Usage",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "Reconnaissance",
             "Common Applications",
@@ -8890,7 +8890,7 @@
     "598": {
         "name": "Runner",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": [
             "Weak Authentication",
             "System Exploitation",
@@ -8911,7 +8911,7 @@
     "599": {
         "name": "Intuition",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": [
             "Local File Inclusion",
             "Vulnerability Assessment",
@@ -8941,7 +8941,7 @@
     "600": {
         "name": "Mailing",
         "os": "Windows",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": [
             "hMailServer",
             "IIS",
@@ -8963,67 +8963,79 @@
     "601": {
         "name": "SolarLab",
         "os": "Windows",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": []
     },
     "603": {
         "name": "BoardLight",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": []
     },
     "604": {
         "name": "Freelancer",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": []
     },
     "605": {
         "name": "Blurry",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
         "tags": []
     },
     "608": {
         "name": "Editorial",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": []
     },
     "611": {
         "name": "Axlle",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": []
     },
     "613": {
         "name": "PermX",
         "os": "Linux",
-        "difficultyText": "Easy",
+        "difficulty": "Easy",
         "tags": []
     },
     "614": {
         "name": "Blazorized",
         "os": "Windows",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "617": {
+        "name": "GreenHorn",
+        "os": "Linux",
+        "difficulty": "Easy",
         "tags": []
     },
     "619": {
         "name": "Resource",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": []
     },
     "621": {
         "name": "Lantern",
         "os": "Linux",
-        "difficultyText": "Hard",
+        "difficulty": "Hard",
         "tags": []
     },
     "629": {
         "name": "EvilCUPS",
         "os": "Linux",
-        "difficultyText": "Medium",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "639": {
+        "name": "Unrested",
+        "os": "Linux",
+        "difficulty": "Medium",
         "tags": []
     }
 }

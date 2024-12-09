@@ -72,7 +72,7 @@ if __name__ == "__main__":
                 boxes[box_id] = {
                     "name": box["name"],
                     "os": box["os"],
-                    "difficultyText": box["difficultyText"],
+                    "difficulty": box["difficultyText"],
                 }
 
     # sort boxes ascending order by id https://stackoverflow.com/a/47017849/8291133
