@@ -9014,16 +9014,34 @@
         "difficulty": "Easy",
         "tags": []
     },
+    "618": {
+        "name": "Compiled",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": []
+    },
     "619": {
         "name": "Resource",
         "os": "Linux",
         "difficulty": "Hard",
         "tags": []
     },
+    "620": {
+        "name": "Sea",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
     "621": {
         "name": "Lantern",
         "os": "Linux",
         "difficulty": "Hard",
+        "tags": []
+    },
+    "624": {
+        "name": "Sightless",
+        "os": "Linux",
+        "difficulty": "Easy",
         "tags": []
     },
     "629": {
