@@ -9038,10 +9038,46 @@
         "difficulty": "Hard",
         "tags": []
     },
+    "622": {
+        "name": "MonitorsThree",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": []
+    },
     "624": {
         "name": "Sightless",
         "os": "Linux",
         "difficulty": "Easy",
+        "tags": [
+            "Injections",
+            "OS Command Injection",
+            "Vulnerability Assessment",
+            "Cross Site Scripting (XSS)",
+            "Port Forwarding",
+            "Authentication bypass",
+            "SSH",
+            "JavaScript",
+            "NGINX",
+            "Docker",
+            "Web Application",
+            "Password Cracking",
+            "NodeJS",
+            "Bash",
+            "Remote Code Execution",
+            "Databases",
+            "Cryptography"
+        ]
+    },
+    "625": {
+        "name": "Caption",
+        "os": "Linux",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "626": {
+        "name": "Trickster",
+        "os": "Linux",
+        "difficulty": "Medium",
         "tags": []
     },
     "629": {
@@ -9052,6 +9088,12 @@
     },
     "639": {
         "name": "Unrested",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "644": {
+        "name": "Strutted",
         "os": "Linux",
         "difficulty": "Medium",
         "tags": []
