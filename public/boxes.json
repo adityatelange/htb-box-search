@@ -8966,6 +8966,12 @@
         "difficulty": "Medium",
         "tags": []
     },
+    "602": {
+        "name": "MagicGardens",
+        "os": "Linux",
+        "difficulty": "Insane",
+        "tags": []
+    },
     "603": {
         "name": "BoardLight",
         "os": "Linux",
@@ -9080,10 +9086,34 @@
         "difficulty": "Medium",
         "tags": []
     },
+    "627": {
+        "name": "Cicada",
+        "os": "Windows",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "628": {
+        "name": "Yummy",
+        "os": "Linux",
+        "difficulty": "Hard",
+        "tags": []
+    },
     "629": {
         "name": "EvilCUPS",
         "os": "Linux",
         "difficulty": "Medium",
+        "tags": []
+    },
+    "630": {
+        "name": "Instant",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "631": {
+        "name": "Chemistry",
+        "os": "Linux",
+        "difficulty": "Easy",
         "tags": []
     },
     "639": {
