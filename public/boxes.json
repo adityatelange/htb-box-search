@@ -9116,6 +9116,18 @@
         "difficulty": "Easy",
         "tags": []
     },
+    "633": {
+        "name": "Certified",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "636": {
+        "name": "Alert",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
     "639": {
         "name": "Unrested",
         "os": "Linux",
