@@ -9014,6 +9014,12 @@
         "difficulty": "Hard",
         "tags": []
     },
+    "616": {
+        "name": "Ghost",
+        "os": "Windows",
+        "difficulty": "Insane",
+        "tags": []
+    },
     "617": {
         "name": "GreenHorn",
         "os": "Linux",
@@ -9122,8 +9128,32 @@
         "difficulty": "Medium",
         "tags": []
     },
+    "634": {
+        "name": "Administrator",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "635": {
+        "name": "BlockBlock",
+        "os": "Linux",
+        "difficulty": "Hard",
+        "tags": []
+    },
     "636": {
         "name": "Alert",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "637": {
+        "name": "Vintage",
+        "os": "Windows",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "638": {
+        "name": "LinkVortex",
         "os": "Linux",
         "difficulty": "Easy",
         "tags": []
@@ -9134,10 +9164,22 @@
         "difficulty": "Medium",
         "tags": []
     },
+    "641": {
+        "name": "UnderPass",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
     "644": {
         "name": "Strutted",
         "os": "Linux",
         "difficulty": "Medium",
+        "tags": []
+    },
+    "645": {
+        "name": "BigBang",
+        "os": "Linux",
+        "difficulty": "Hard",
         "tags": []
     }
 }
