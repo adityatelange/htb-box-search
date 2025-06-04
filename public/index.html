@@ -20,6 +20,9 @@
     <meta name="twitter:description" content="Search Boxes from HackTheBox">
     <meta name="twitter:image" content="https://htb-box-search.pages.dev/htb-box-search.png">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -145,6 +148,24 @@
                 min-width: 80px;
             }
         }
+.choices{
+width:100vw!important;
+margin-bottom: 0px!important;
+}
+.choices__list--dropdown .choices__item, .choices__list[aria-expanded] .choices__item{
+padding: 0 !important;
+}
+        
+.choices__list--dropdown, .choices__list[aria-expanded],.choices__list .choices__list--dropdown{
+    background-color: black !important;
+}
+        
+.choices__item--selectable.is-highlighted, .choices__list[aria-expanded] .choices__item--selectable.is-highlighted,.choices__input,.choices__inner {
+    background-color: #333 !important;
+    padding: 0px 0px 0px 0px !important;
+    border: 0 !important;
+    color: inherit !important;
+}
     </style>
 </head>
 
@@ -153,18 +174,28 @@
     <div class="container">
         <label for="searchInput">Search:</label>
         <input type="text" id="searchInput" placeholder="Search...">
+
         <label for="filterOsSelect">Filter by OS:</label>
-        <select id="filterOsSelect">
-            <option value="">All</option>
-        </select>
+<select id="filterOsSelect">
+    <option value="">All</option>
+    <option value="linux">Linux</option>
+    <option value="windows">Windows</option>
+</select>
+
         <label for="filterDifficultySelect">Filter by Difficulty:</label>
-        <select id="filterDifficultySelect">
-            <option value="">All</option>
-        </select>
-        <label for="filterTagSelect">Filter by Tag:</label>
-        <select id="filterTagSelect">
-            <option value="">All</option>
-        </select>
+<select id="filterDifficultySelect">
+    <option value="">All</option>
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+    <option value="insane">Insane</option>
+</select>
+
+<label for="allowTagSelect">Allow by Tag:</label>
+<select id="allowTagSelect" multiple></select>
+
+<label for="removeTagSelect">Remove by Tag:</label>
+<select id="removeTagSelect" multiple></select>
     </div>
     <div id="tableContainer">
         <noscript>
@@ -175,179 +206,148 @@
         By <a href="https://adityatelange.in">@adityatelange</a> | <a
             href="https://github.com/adityatelange/htb-box-search">view source on Github</a>
     </div>
+<script>
+    var jsonData = {};
+    const tableContainer = document.getElementById('tableContainer');
+    const searchInput = document.getElementById('searchInput');
+    const filterOsSelect = document.getElementById('filterOsSelect');
+    const filterDifficultySelect = document.getElementById('filterDifficultySelect');
+    const allowTagSelect = document.getElementById('allowTagSelect');
+    const removeTagSelect = document.getElementById('removeTagSelect');
 
-    <script>
-        var jsonData = {}
-        const tableContainer = document.getElementById('tableContainer');
+    window.addEventListener('load', async () => {
+        try {
+            const response = await fetch('boxes.json');
+            jsonData = await response.json();
+            console.log("Data loaded:", jsonData);
 
-        window.addEventListener('load', async () => {
-            try {
-            } finally {
-                // Below code is generated with help of chatGPT
-                fetch('boxes.json')
-                    .then(response => response.json())
-                    .then(jsonData => {
-                        // filtering code placed here
-                        const tableContainer = document.getElementById('tableContainer');
-                        const searchInput = document.getElementById('searchInput');
-                        const filterOsSelect = document.getElementById('filterOsSelect');
-                        const filterDifficultySelect = document.getElementById('filterDifficultySelect');
-                        const filterTagSelect = document.getElementById('filterTagSelect');
+            // Get unique tags from the data
+            const uniqueTags = getUniqueTags(jsonData);
 
-                        function humanize(str) {
-                            return str
-                                .replace(/^[\s_]+|[\s_]+$/g, '')
-                                .replace(/[_\s]+/g, ' ')
-                                .replace(/^[a-z]/, function (m) { return m.toUpperCase(); });
-                        }
+            // Initialize Choices for tag selection
+            const allowChoices = new Choices(allowTagSelect, { removeItemButton: true, placeholder: true, placeholderValue: 'Select tags to allow' });
+            const removeChoices = new Choices(removeTagSelect, { removeItemButton: true, placeholder: true, placeholderValue: 'Select tags to remove' });
 
-                        function generateTable(data) {
-                            const table = document.createElement('table');
-                            const headerRow = document.createElement('tr');
+            // Populate Choices dropdowns with tags
+            allowChoices.setChoices(uniqueTags.map(tag => ({ value: tag, label: tag })), 'value', 'label', false);
+            removeChoices.setChoices(uniqueTags.map(tag => ({ value: tag, label: tag })), 'value', 'label', false);
 
-                            // Add serial number header
-                            const serialHeader = document.createElement('th');
-                            serialHeader.textContent = '#';
-                            headerRow.appendChild(serialHeader);
+            // Add event listeners to apply filters dynamically
+            searchInput.addEventListener('input', applySearchAndFilter);
+            filterOsSelect.addEventListener('change', applySearchAndFilter);
+            filterDifficultySelect.addEventListener('change', applySearchAndFilter);
+            allowTagSelect.addEventListener('change', applySearchAndFilter);
+            removeTagSelect.addEventListener('change', applySearchAndFilter);
 
-                            // Get all unique keys from the JSON data
-                            const uniqueKeys = [...new Set(Object.values(jsonData).flatMap(item => Object.keys(item)))];
-
-                            // Create table headers
-                            uniqueKeys.forEach(key => {
-                                const headerCell = document.createElement('th');
-                                headerCell.textContent = humanize(key);
-                                headerRow.appendChild(headerCell);
-                            });
-
-                            table.appendChild(headerRow);
-
-                            // Check if data is empty
-                            if (Object.keys(data).length === 0) {
-                                const emptyRow = document.createElement('tr');
-                                const emptyCell = document.createElement('td');
-                                emptyCell.setAttribute('colspan', uniqueKeys.length + 1);
-                                emptyCell.textContent = 'No data available';
-                                emptyRow.appendChild(emptyCell);
-                                table.appendChild(emptyRow);
-                            } else {
-                                // Create table rows and cells
-                                Object.values(data).forEach((rowData, index) => {
-                                    const row = document.createElement('tr');
-
-                                    // Add serial number cell
-                                    const serialCell = document.createElement('td');
-                                    serialCell.textContent = index + 1;
-                                    row.appendChild(serialCell);
-
-                                    uniqueKeys.forEach(key => {
-                                        const cell = document.createElement('td');
-                                        if (key === 'name') {
-                                            const link = document.createElement('a');
-                                            link.href = 'https://app.hackthebox.com/machines/' + rowData[key].toLowerCase();
-                                            link.target = '_blank';
-                                            link.textContent = rowData[key];
-                                            cell.appendChild(link)
-                                        } else if (key === 'tags') {
-                                            cell.classList = ["tags"]
-                                            cell.textContent = Array.isArray(rowData[key]) ? rowData[key].join(', ') : rowData[key];
-                                        } else {
-                                            cell.textContent = Array.isArray(rowData[key]) ? rowData[key].join(', ') : rowData[key];
-                                        }
-                                        row.appendChild(cell);
-
-                                    });
-
-                                    table.appendChild(row);
-                                });
-                            }
-
-                            return table;
-                        }
-
-                        function getUniqueTags(data) {
-                            const allTags = Object.values(data).flatMap(item => item.tags);
-                            const uniqueTags = [...new Set(allTags)];
-                            uniqueTags.sort(); // Sort the tags in ascending order
-                            return uniqueTags;
-                        }
-
-                        function getUniqueOs(data) {
-                            const allOs = Object.values(data).map(item => item.os);
-                            const uniqueOs = [...new Set(allOs)];
-                            return uniqueOs;
-                        }
-
-                        function getUniqueDifficulties(data) {
-                            const allDifficulties = Object.values(data).map(item => item.difficulty);
-                            const uniqueDifficulties = [...new Set(allDifficulties)];
-                            return uniqueDifficulties;
-                        }
-
-                        function applySearchAndFilter() {
-                            const searchText = searchInput.value.toLowerCase();
-                            const filterOs = filterOsSelect.value;
-                            const filterDifficulty = filterDifficultySelect.value;
-                            const filterTag = filterTagSelect.value;
-
-                            const filteredData = Object.values(jsonData).filter(item => {
-                                const tags = item.tags.map(tag => tag.toLowerCase());
-
-                                return (
-                                    (searchText === '' || Object.values(item).some(value => value.toString().toLowerCase().includes(searchText))) &&
-                                    (filterOs === '' || item.os.toLowerCase() === filterOs.toLowerCase()) &&
-                                    (filterDifficulty === '' || item.difficulty.toLowerCase() === filterDifficulty.toLowerCase()) &&
-                                    (filterTag === '' || tags.includes(filterTag.toLowerCase()))
-                                );
-                            });
-
-                            const table = generateTable(filteredData);
-
-                            // Clear the table container and append the updated table
-                            tableContainer.innerHTML = '';
-                            tableContainer.appendChild(table);
-                        }
-
-                        searchInput.addEventListener('input', applySearchAndFilter);
-                        filterOsSelect.addEventListener('change', applySearchAndFilter);
-                        filterDifficultySelect.addEventListener('change', applySearchAndFilter);
-                        filterTagSelect.addEventListener('change', applySearchAndFilter);
-
-                        // Populate filter dropdowns with unique values
-                        const uniqueOs = getUniqueOs(jsonData);
-                        uniqueOs.forEach(os => {
-                            const option = document.createElement('option');
-                            option.value = os;
-                            option.textContent = os;
-                            filterOsSelect.appendChild(option);
-                        });
-
-                        const uniqueDifficulties = getUniqueDifficulties(jsonData);
-                        uniqueDifficulties.forEach(difficulty => {
-                            const option = document.createElement('option');
-                            option.value = difficulty;
-                            option.textContent = difficulty;
-                            filterDifficultySelect.appendChild(option);
-                        });
-
-                        const uniqueTags = getUniqueTags(jsonData);
-                        uniqueTags.forEach(tag => {
-                            const option = document.createElement('option');
-                            option.value = tag;
-                            option.textContent = tag;
-                            filterTagSelect.appendChild(option);
-                        });
-
-                        // Generate initial table
-                        const initialTable = generateTable(Object.values(jsonData));
-                        tableContainer.appendChild(initialTable);
-                    })
-                    .catch(error => {
-                        console.error('Error loading JSON data:', error);
-                    })
+            // Function to humanize data keys (capitalization)
+            function humanize(str) {
+                return str
+                    .replace(/^[\s_]+|[\s_]+$/g, '')
+                    .replace(/[_\s]+/g, ' ')
+                    .replace(/^[a-z]/, function (m) { return m.toUpperCase(); });
             }
-        });
-    </script>
+
+            // Generate table HTML structure
+            function generateTable(data) {
+                const table = document.createElement('table');
+                const headerRow = document.createElement('tr');
+                const serialHeader = document.createElement('th');
+                serialHeader.textContent = '#';
+                headerRow.appendChild(serialHeader);
+
+                const uniqueKeys = [...new Set(Object.values(jsonData).flatMap(item => Object.keys(item)))];
+                uniqueKeys.forEach(key => {
+                    const headerCell = document.createElement('th');
+                    headerCell.textContent = humanize(key);
+                    headerRow.appendChild(headerCell);
+                });
+
+                table.appendChild(headerRow);
+
+                if (Object.keys(data).length === 0) {
+                    const emptyRow = document.createElement('tr');
+                    const emptyCell = document.createElement('td');
+                    emptyCell.setAttribute('colspan', uniqueKeys.length + 1);
+                    emptyCell.textContent = 'No data available';
+                    emptyRow.appendChild(emptyCell);
+                    table.appendChild(emptyRow);
+                } else {
+                    Object.values(data).forEach((rowData, index) => {
+                        const row = document.createElement('tr');
+                        const serialCell = document.createElement('td');
+                        serialCell.textContent = index + 1;
+                        row.appendChild(serialCell);
+
+                        uniqueKeys.forEach(key => {
+                            const cell = document.createElement('td');
+                            if (key === 'name') {
+                                const link = document.createElement('a');
+                                link.href = 'https://app.hackthebox.com/machines/' + rowData[key].toLowerCase();
+                                link.target = '_blank';
+                                link.textContent = rowData[key];
+                                cell.appendChild(link);
+                            } else if (key === 'tags') {
+                                cell.classList = ["tags"];
+                                cell.textContent = Array.isArray(rowData[key]) ? rowData[key].join(', ') : rowData[key];
+                            } else {
+                                cell.textContent = Array.isArray(rowData[key]) ? rowData[key].join(', ') : rowData[key];
+                            }
+                            row.appendChild(cell);
+                        });
+                        table.appendChild(row);
+                    });
+                }
+
+                return table;
+            }
+
+            // Function to get unique tags from the data
+            function getUniqueTags(data) {
+                const allTags = Object.values(data).flatMap(item => item.tags || []);
+                const uniqueTags = [...new Set(allTags)];
+                uniqueTags.sort();
+                return uniqueTags;
+            }
+function applySearchAndFilter() {
+    const searchText = searchInput.value.toLowerCase();
+    const filterOs = filterOsSelect.value.toLowerCase();
+    const filterDifficulty = filterDifficultySelect.value.toLowerCase();
+
+    const allowTags = allowChoices.getValue().map(item => item.value.toLowerCase());
+    const removeTags = removeChoices.getValue().map(item => item.value.toLowerCase());
+
+    const filteredData = Object.values(jsonData).filter(item => {
+        const tags = Array.isArray(item.tags) ? item.tags.map(tag => tag.toLowerCase()) : [];
+        const os = item.os ? item.os.toLowerCase() : '';
+        const difficulty = item.difficulty ? item.difficulty.toLowerCase() : '';
+
+        const matchesSearch = searchText === '' || Object.values(item).some(value =>
+            value && value.toString().toLowerCase().includes(searchText)
+        );
+
+        const matchesOs = filterOs === '' || os.includes(filterOs);
+        const matchesDifficulty = filterDifficulty === '' || difficulty.includes(filterDifficulty);
+
+        const matchesAllowTags = allowTags.length === 0 || allowTags.some(tag => tags.includes(tag));
+        const notInRemoveTags = removeTags.length === 0 || !removeTags.some(tag => tags.includes(tag));
+
+        return matchesSearch && matchesOs && matchesDifficulty && matchesAllowTags && notInRemoveTags;
+    });
+
+    const table = generateTable(filteredData);
+    tableContainer.innerHTML = '';
+    tableContainer.appendChild(table);
+}
+
+
+            // Initial application of search and filters when page loads
+            applySearchAndFilter();
+        } catch (error) {
+            console.error('Error loading JSON data:', error);
+        }
+    });
+</script>
+
 </body>
 
 </html>
