@@ -9164,10 +9164,28 @@
         "difficulty": "Medium",
         "tags": []
     },
+    "640": {
+        "name": "Heal",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": []
+    },
     "641": {
         "name": "UnderPass",
         "os": "Linux",
         "difficulty": "Easy",
+        "tags": []
+    },
+    "642": {
+        "name": "EscapeTwo",
+        "os": "Windows",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "643": {
+        "name": "Backfire",
+        "os": "Linux",
+        "difficulty": "Medium",
         "tags": []
     },
     "644": {
@@ -9178,6 +9196,12 @@
     },
     "645": {
         "name": "BigBang",
+        "os": "Linux",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "649": {
+        "name": "Checker",
         "os": "Linux",
         "difficulty": "Hard",
         "tags": []
