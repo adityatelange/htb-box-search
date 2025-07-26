@@ -9056,6 +9056,12 @@
         "difficulty": "Medium",
         "tags": []
     },
+    "623": {
+        "name": "Infiltrator",
+        "os": "Windows",
+        "difficulty": "Insane",
+        "tags": []
+    },
     "624": {
         "name": "Sightless",
         "os": "Linux",
@@ -9200,8 +9206,98 @@
         "difficulty": "Hard",
         "tags": []
     },
+    "646": {
+        "name": "Cat",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "648": {
+        "name": "Titanic",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
     "649": {
         "name": "Checker",
+        "os": "Linux",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "651": {
+        "name": "Dog",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "654": {
+        "name": "Haze",
+        "os": "Windows",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "657": {
+        "name": "Scepter",
+        "os": "Windows",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "666": {
+        "name": "Down",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "667": {
+        "name": "Shibuya",
+        "os": "Windows",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "671": {
+        "name": "Retro",
+        "os": "Windows",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "673": {
+        "name": "Data",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "677": {
+        "name": "VulnCicada",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "678": {
+        "name": "VulnEscape",
+        "os": "Windows",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "680": {
+        "name": "Reset",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "681": {
+        "name": "Redelegate",
+        "os": "Windows",
+        "difficulty": "Hard",
+        "tags": []
+    },
+    "685": {
+        "name": "RetroTwo",
+        "os": "Windows",
+        "difficulty": "Easy",
+        "tags": []
+    },
+    "686": {
+        "name": "Ten",
         "os": "Linux",
         "difficulty": "Hard",
         "tags": []
