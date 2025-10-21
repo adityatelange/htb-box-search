@@ -10,8 +10,8 @@ import requests
 key = os.environ.get("KEY")
 
 URLs = {
-    "retired": "https://www.hackthebox.com/api/v4/machine/list/retired/paginated",
-    "tags": "https://www.hackthebox.com/api/v4/machine/tags/{}",
+    "retired": "https://labs.hackthebox.com/api/v4/machine/list/retired/paginated",
+    "tags": "https://labs.hackthebox.com/api/v4/machine/tags/{}",
 }
 
 
@@ -19,7 +19,7 @@ def reQuester(url, params={}):
     r = requests.get(
         url,
         headers={
-            "authority": "www.hackthebox.com",
+            "authority": "labs.hackthebox.com",
             "authorization": "Bearer {}".format(key),
             "cache-control": "no-cache",
             "pragma": "no-cache",
