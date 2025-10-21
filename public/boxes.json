@@ -8130,7 +8130,21 @@
         "name": "CozyHosting",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "OS Command Injection",
+            "Java",
+            "Bash",
+            "SSH",
+            "NGINX",
+            "Spring Boot",
+            "User Enumeration",
+            "Fuzzing",
+            "Configuration Analysis",
+            "Password Cracking",
+            "Databases",
+            "Injections"
+        ]
     },
     "560": {
         "name": "Rebound",
@@ -8320,7 +8334,26 @@
         "name": "Manager",
         "os": "Windows",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Mobile",
+            "Vulnerability Assessment",
+            "Weak Credentials",
+            "Clear Text Credentials",
+            "Misconfiguration",
+            "Weak Cryptography",
+            "Sensitive Data Exposure",
+            "MSSQL",
+            "SMB",
+            "Active Directory Certificate Services",
+            "Android Studio",
+            "android",
+            "Reconnaissance",
+            "User Enumeration",
+            "Password Spraying",
+            "Privilege Abuse",
+            "Client Side",
+            "Software & OS exploitation"
+        ]
     },
     "573": {
         "name": "Appsanity",
@@ -8849,13 +8882,55 @@
         "name": "Mist",
         "os": "Windows",
         "difficulty": "Insane",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "Arbitrary File Read",
+            "Information Disclosure",
+            "Code Execution",
+            "Command Execution",
+            "PHP",
+            "Powershell",
+            "Apache",
+            "SMB",
+            "CMS",
+            "Certificates",
+            "Web Site Structure Discovery",
+            "Pivoting",
+            "Impersonation",
+            "Tunneling",
+            "Password Reuse",
+            "Password Cracking",
+            "Antivirus Bypass",
+            "Pass the Hash",
+            "Broken Authentication and Authorization",
+            "Active Directory",
+            "Common Security Controls"
+        ]
     },
     "596": {
         "name": "IClean",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Cross Site Scripting (XSS)",
+            "Server Side Template Injection (SSTI)",
+            "Python",
+            "Bash",
+            "JavaScript",
+            "MySQL",
+            "SSH",
+            "Django",
+            "Reconnaissance",
+            "Fuzzing",
+            "Password Cracking",
+            "SUDO Exploitation",
+            "Session Management and Hijacking",
+            "Custom Applications",
+            "Injections"
+        ]
     },
     "597": {
         "name": "Usage",
@@ -8964,103 +9039,405 @@
         "name": "SolarLab",
         "os": "Windows",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Person",
+            "Security Operations",
+            "Remote Code Execution",
+            "Clear Text Credentials",
+            "Anonymous/Guest Access",
+            "Python",
+            "Java",
+            "NGINX",
+            "Reconnaissance",
+            "User Enumeration",
+            "Web Site Structure Discovery",
+            "Pivoting",
+            "Exploit Modification",
+            "Tunneling",
+            "Password Reuse",
+            "Password Cracking",
+            "Port Forwarding",
+            "Databases",
+            "Common Services",
+            "Programming",
+            "Documentation Review",
+            "Log Analysis"
+        ]
     },
     "602": {
         "name": "MagicGardens",
         "os": "Linux",
         "difficulty": "Insane",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Buffer Overflow",
+            "Deserialization",
+            "Cross Site Scripting (XSS)",
+            "Server Side Request Forgery (SSRF)",
+            "Python",
+            "C",
+            "Django",
+            "Docker",
+            "Binary Exploitation",
+            "Docker Abuse",
+            "Session Management and Hijacking",
+            "Protocols"
+        ]
     },
     "603": {
         "name": "BoardLight",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "Code Injection",
+            "PHP",
+            "Bash",
+            "Apache",
+            "Linux",
+            "Reconnaissance",
+            "Web Site Structure Discovery",
+            "Fuzzing",
+            "SUID Exploitation",
+            "Protocols",
+            "Software & OS exploitation"
+        ]
     },
     "604": {
         "name": "Freelancer",
         "os": "Windows",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Forensics",
+            "Vulnerability Assessment",
+            "SQL Injection",
+            "Insecure Direct Object Reference (IDOR)",
+            "Powershell",
+            "MSSQL",
+            "WinRM",
+            "Fuzzing",
+            "System Exploitation",
+            "Password Cracking",
+            "Password Spraying",
+            "Memory Dump",
+            "Privilege Abuse",
+            "Databases",
+            "Active Directory",
+            "Memory",
+            "Reverse Engineering"
+        ]
     },
     "605": {
         "name": "Blurry",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Deserialization",
+            "Python",
+            "NGINX",
+            "Exploit Development",
+            "Injections",
+            "Source Code Analysis"
+        ]
     },
     "608": {
         "name": "Editorial",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Clear Text Credentials",
+            "Server Side Request Forgery (SSRF)",
+            "Misconfiguration",
+            "Python",
+            "Bash",
+            "NGINX",
+            "Git",
+            "Fuzzing",
+            "SUDO Exploitation",
+            "Custom Applications"
+        ]
     },
     "611": {
         "name": "Axlle",
         "os": "Windows",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Group Membership",
+            "Command Execution",
+            "C++",
+            "IIS",
+            "SMB",
+            "LDAP",
+            "Excel",
+            "Reconnaissance",
+            "User Enumeration",
+            "Exploit Modification",
+            "Password Reuse",
+            "Phishing",
+            "Windows Service Exploitation",
+            "Password Reset",
+            "Active Directory"
+        ]
     },
     "613": {
         "name": "PermX",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Arbitrary File Upload",
+            "PHP",
+            "Bash",
+            "Apache",
+            "SSH",
+            "Reconnaissance",
+            "Fuzzing",
+            "SUDO Exploitation",
+            "Common Applications"
+        ]
     },
     "614": {
         "name": "Blazorized",
         "os": "Windows",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "SQL Injection",
+            "OS Command Injection",
+            "Weak Permissions",
+            "Hard-coded Credentials",
+            "SQL",
+            "Web Assembly",
+            "C#",
+            "IIS",
+            "MSSQL",
+            "SMB",
+            "JWT",
+            "Kerberos",
+            ".NET",
+            "LDAP",
+            "WinRM",
+            "Windows",
+            "Password Cracking",
+            "Kerberoasting",
+            "AD DCSync",
+            "Scheduled Job Abuse",
+            "Privilege Abuse",
+            "Decompilation",
+            "Authentication bypass",
+            "Input Manipulation",
+            "JWT substitution attack",
+            "Session Management and Hijacking",
+            "Broken Authentication and Authorization",
+            "Databases",
+            "Custom Applications",
+            "Injections",
+            "Active Directory",
+            "Protocols",
+            "Common Services",
+            "Source Code Analysis",
+            "Reverse Engineering",
+            "Security Tools",
+            "Authentication"
+        ]
     },
     "616": {
         "name": "Ghost",
         "os": "Windows",
         "difficulty": "Insane",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "LDAP Injection",
+            "Python",
+            "Powershell",
+            "MSSQL",
+            "DNS",
+            "Kerberos",
+            "LDAP",
+            "ADFS",
+            "Impersonation",
+            "Password Cracking",
+            "Kerberos Abuse",
+            "Hash Capture",
+            "Privilege Abuse",
+            "Potato Exploits",
+            "ADFS Spoofing",
+            "Active Directory",
+            "Common Services",
+            "Source Code Analysis",
+            "Authentication"
+        ]
     },
     "617": {
         "name": "GreenHorn",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Remote File Inclusion",
+            "Weak Credentials",
+            "Remote Code Execution",
+            "Information Disclosure",
+            "PHP",
+            "SSH",
+            "NGINX",
+            "Gitea",
+            "Password Reuse",
+            "Password Cracking"
+        ]
     },
     "618": {
         "name": "Compiled",
         "os": "Windows",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Person",
+            "Weak Credentials",
+            "Remote Code Execution",
+            "Information Disclosure",
+            "Sensitive Data Exposure",
+            "Python",
+            "Perl",
+            "C++",
+            "SMB",
+            "Git",
+            "SQLite",
+            "WinRM",
+            "Reconnaissance",
+            "User Enumeration",
+            "Exploit Modification",
+            "Password Reuse",
+            "Password Cracking",
+            "Brute Force Attack",
+            "Common Applications",
+            "Databases",
+            "Custom Applications",
+            "Source Code Analysis",
+            "Software & OS exploitation",
+            "Security Tools",
+            "Programming"
+        ]
     },
     "619": {
         "name": "Resource",
         "os": "Linux",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Local File Inclusion",
+            "Arbitrary File Upload",
+            "Weak Authentication",
+            "PHP",
+            "Python",
+            "SQL",
+            "Bash",
+            "Apache",
+            "MySQL",
+            "SSH",
+            "NGINX",
+            "Docker",
+            "Configuration Analysis",
+            "Broken Authentication and Authorization"
+        ]
     },
     "620": {
         "name": "Sea",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Remote Code Execution",
+            "OS Command Injection",
+            "Cross Site Scripting (XSS)",
+            "PHP",
+            "Bash",
+            "JavaScript",
+            "Apache",
+            "SSH",
+            "WonderCMS",
+            "Web Site Structure Discovery",
+            "Fuzzing",
+            "Password Reuse",
+            "Client side attack",
+            "Session Management and Hijacking",
+            "Databases",
+            "Injections"
+        ]
     },
     "621": {
         "name": "Lantern",
         "os": "Linux",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Security Operations",
+            "Arbitrary File Read",
+            "Arbitrary File Upload",
+            "Server Side Request Forgery (SSRF)",
+            "Misconfiguration",
+            "Python",
+            "SQLite",
+            "SUDO Exploitation",
+            "DLL Sideloading",
+            "Custom Applications",
+            "File Integrity Monitoring (FIM)"
+        ]
     },
     "622": {
         "name": "MonitorsThree",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "SQL Injection",
+            "PHP",
+            "SQL",
+            "Bash",
+            "Cacti",
+            "Reconnaissance",
+            "Exploit Development",
+            "Password Cracking",
+            "Injections"
+        ]
     },
     "623": {
         "name": "Infiltrator",
         "os": "Windows",
         "difficulty": "Insane",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Clear Text Credentials",
+            "Group Membership",
+            "RDP",
+            "Kerberos",
+            "LDAP",
+            "Certificates",
+            "Web API",
+            "Active Directory Certificate Services",
+            "API",
+            "Tunneling",
+            "Password Reuse",
+            "Password Cracking",
+            "Password Spraying",
+            "API Abuse",
+            "Active Directory",
+            "Common Services",
+            "Output Messenger"
+        ]
     },
     "624": {
         "name": "Sightless",
@@ -9090,175 +9467,830 @@
         "name": "Caption",
         "os": "Linux",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "OS Command Injection",
+            "Misconfiguration",
+            "Directory Traversal",
+            "HTTP request smuggling",
+            "Go",
+            "Flask",
+            "Werkzeug",
+            "GitBucket",
+            "Thrift",
+            "Varnish Cache",
+            "HAProxy",
+            "Cross Reference",
+            "Client side attack",
+            "Cache Poisoning",
+            "Session Management and Hijacking",
+            "Custom Applications"
+        ]
     },
     "626": {
         "name": "Trickster",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Weak Credentials",
+            "Clear Text Credentials",
+            "Directory Listing",
+            "Cross Site Scripting (XSS)",
+            "Information Disclosure",
+            "Code Execution",
+            "Server Side Template Injection (SSTI)",
+            "Hard-coded Credentials",
+            "PHP",
+            "Apache",
+            "MariaDB",
+            "MySQL",
+            "Docker",
+            "OpenSSH",
+            "Linux",
+            "Reconnaissance",
+            "User Enumeration",
+            "Web Site Structure Discovery",
+            "Configuration Analysis",
+            "Password Reuse",
+            "Password Cracking",
+            "Brute Force Attack",
+            "Port Forwarding",
+            "SUDO Exploitation",
+            "Phishing",
+            "Common Applications",
+            "Databases",
+            "Custom Applications",
+            "Common Security Controls",
+            "Security Tools",
+            "PrestaShop",
+            "PrusaSlicer"
+        ]
     },
     "627": {
         "name": "Cicada",
         "os": "Windows",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "Hard-coded Credentials",
+            "Powershell",
+            "SMB",
+            "WinRM",
+            "Windows",
+            "Reconnaissance",
+            "Pass the Hash",
+            "Password Spraying",
+            "Privilege Abuse",
+            "Active Directory",
+            "Protocols",
+            "Common Services",
+            "Security Tools",
+            "Authentication"
+        ]
     },
     "628": {
         "name": "Yummy",
         "os": "Linux",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Vulnerability Assessment",
+            "SQL Injection",
+            "Arbitrary File Read",
+            "Arbitrary File Write",
+            "SQL",
+            "Go",
+            "MySQL",
+            "JWT",
+            "Rsync",
+            "RSA",
+            "Cryptography"
+        ]
     },
     "629": {
         "name": "EvilCUPS",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Remote Code Execution",
+            "OS Command Injection",
+            "Command Execution",
+            "CUPS"
+        ]
     },
     "630": {
         "name": "Instant",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Arbitrary File Read",
+            "Directory Traversal",
+            "Sensitive Data Exposure",
+            "Bash",
+            "SSH",
+            "JWT",
+            "SQLite",
+            "Werkzeug",
+            "Reconnaissance",
+            "Password Cracking",
+            "Session Management and Hijacking",
+            "Broken Authentication and Authorization",
+            "Databases",
+            "Custom Applications",
+            "Source Code Analysis",
+            "Reverse Engineering"
+        ]
     },
     "631": {
         "name": "Chemistry",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Arbitrary File Read",
+            "Remote Code Execution",
+            "Python",
+            "Custom Applications"
+        ]
+    },
+    "632": {
+        "name": "University",
+        "os": "Windows",
+        "difficulty": "Insane",
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Remote Code Execution",
+            "Clear Text Credentials",
+            "Weak Permissions",
+            "Python",
+            "WPAD",
+            "IPv6",
+            "LDAP",
+            "Certificates",
+            "Active Directory Certificate Services",
+            "MiTM",
+            "NTLM Relay",
+            "Common Applications",
+            "Broken Authentication and Authorization",
+            "Active Directory",
+            "Common Services"
+        ]
     },
     "633": {
         "name": "Certified",
         "os": "Windows",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "SMB",
+            "Kerberos",
+            "Active Directory Certificate Services",
+            "Neo4j",
+            "Active Directory",
+            "Pass The Ticket",
+            "Shadow Credentials"
+        ]
     },
     "634": {
         "name": "Administrator",
         "os": "Windows",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "Group Membership",
+            "Misconfiguration",
+            "Powershell",
+            "SMB",
+            "FTP",
+            "Kerberos",
+            "WinRM",
+            "Reconnaissance",
+            "Password Cracking",
+            "Kerberoasting",
+            "Active Directory",
+            "Protocols",
+            "Common Services",
+            "Security Tools"
+        ]
     },
     "635": {
         "name": "BlockBlock",
         "os": "Linux",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Niche Technologies",
+            "Clear Text Credentials",
+            "Cross Site Scripting (XSS)",
+            "Hard-coded Credentials",
+            "Path Hijacking",
+            "Command Execution",
+            "Python",
+            "JavaScript",
+            "Blockchain",
+            "Werkzeug",
+            "OpenSSH",
+            "Smart Contracts",
+            "Reconnaissance",
+            "Web Site Structure Discovery",
+            "Password Reuse",
+            "SUDO Exploitation",
+            "Decode",
+            "Session Management and Hijacking",
+            "Common Security Controls",
+            "Source Code Analysis"
+        ]
     },
     "636": {
         "name": "Alert",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Local File Inclusion",
+            "Arbitrary File Read",
+            "Cross Site Scripting (XSS)",
+            "PHP",
+            "Bash",
+            "JavaScript",
+            "Apache",
+            "SSH",
+            "Reconnaissance",
+            "Web Site Structure Discovery",
+            "Fuzzing",
+            "Custom Applications"
+        ]
     },
     "637": {
         "name": "Vintage",
         "os": "Windows",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Misconfiguration",
+            "Python",
+            "Bash",
+            "Powershell",
+            "SMB",
+            "Kerberos",
+            "LDAP",
+            "WinRM",
+            "Password Reuse",
+            "Kerberoasting",
+            "Kerberos Abuse",
+            "Resource Based Constrained Delegation",
+            "Active Directory",
+            "Protocols",
+            "Common Services"
+        ]
     },
     "638": {
         "name": "LinkVortex",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Arbitrary File Read",
+            "Clear Text Credentials",
+            "Race Condition",
+            "Bash",
+            "Apache",
+            "SSH",
+            "Git",
+            "Fuzzing",
+            "Password Reuse",
+            "SUDO Exploitation",
+            "Broken Authentication and Authorization",
+            "Software & OS exploitation"
+        ]
     },
     "639": {
         "name": "Unrested",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "SQL Injection",
+            "Remote Code Execution",
+            "Weak Authentication",
+            "PHP",
+            "Lua",
+            "Apache",
+            "MySQL",
+            "SUDO Exploitation",
+            "API Abuse",
+            "Authentication bypass",
+            "Broken Authentication and Authorization",
+            "Injections"
+        ]
     },
     "640": {
         "name": "Heal",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Arbitrary File Read",
+            "Weak Credentials",
+            "Clear Text Credentials",
+            "Information Disclosure",
+            "Code Execution",
+            "Directory Traversal",
+            "Hard-coded Credentials",
+            "PHP",
+            "SQL",
+            "Ruby",
+            "Rails",
+            "NGINX",
+            "SQLite",
+            "OpenSSH",
+            "Web API",
+            "Linux",
+            "Password Cracking",
+            "Port Forwarding",
+            "SUID Exploitation",
+            "Common Applications",
+            "Databases",
+            "Custom Applications",
+            "Common Security Controls",
+            "Security Tools",
+            "LimeSurvey"
+        ]
     },
     "641": {
         "name": "UnderPass",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Default Credentials",
+            "SSH",
+            "Password Cracking",
+            "Common Applications",
+            "Mosh (mobile shell)"
+        ]
     },
     "642": {
         "name": "EscapeTwo",
         "os": "Windows",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "SQL",
+            "Powershell",
+            "Active Directory Certificate Services",
+            "Active Directory",
+            "Common Services",
+            "Common Security Controls",
+            "Security Tools"
+        ]
     },
     "643": {
         "name": "Backfire",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Python",
+            "C#",
+            "SSH",
+            "WebSockets",
+            "C2",
+            "iptables",
+            "Authentication bypass"
+        ]
     },
     "644": {
         "name": "Strutted",
         "os": "Linux",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Remote Code Execution",
+            "Java",
+            "Bash",
+            "JSP",
+            "Tomcat",
+            "Apache Struts",
+            "Reconnaissance",
+            "Web Site Structure Discovery",
+            "SUDO Exploitation",
+            "Custom Applications",
+            "Injections"
+        ]
     },
     "645": {
         "name": "BigBang",
         "os": "Linux",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Person",
+            "Weak Credentials",
+            "Remote Code Execution",
+            "OS Command Injection",
+            "Deserialization",
+            "Information Disclosure",
+            "Code Injection",
+            "Command Execution",
+            "PHP",
+            "Python",
+            "Apache",
+            "MySQL",
+            "Wordpress",
+            "OpenSSL",
+            "OpenSSH",
+            "Grafana",
+            "android",
+            "Reconnaissance",
+            "Web Site Structure Discovery",
+            "Exploit Modification",
+            "Password Reuse",
+            "Password Cracking",
+            "Brute Force Attack",
+            "Obfuscation",
+            "Blacklist Bypass",
+            "Common Applications",
+            "Databases",
+            "Source Code Analysis",
+            "Security Tools",
+            "Programming"
+        ]
     },
     "646": {
         "name": "Cat",
         "os": "Linux",
         "difficulty": "Medium",
+        "tags": [
+            "Web Application",
+            "Cross Site Scripting (XSS)",
+            "PHP",
+            "SQLite",
+            "Gitea",
+            "Analysis of Logs",
+            "Password Cracking",
+            "Session Management and Hijacking",
+            "Databases",
+            "Custom Applications",
+            "Injections"
+        ]
+    },
+    "647": {
+        "name": "DarkCorp",
+        "os": "Windows",
+        "difficulty": "Insane",
         "tags": []
     },
     "648": {
         "name": "Titanic",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Arbitrary File Read",
+            "Python",
+            "SSH",
+            "SQLite",
+            "Gitea",
+            "Password Cracking",
+            "Databases",
+            "Custom Applications",
+            "Source Code Analysis"
+        ]
     },
     "649": {
         "name": "Checker",
         "os": "Linux",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Person",
+            "SQL Injection",
+            "Weak Credentials",
+            "Clear Text Credentials",
+            "OS Command Injection",
+            "Server Side Request Forgery (SSRF)",
+            "Python",
+            "Bash",
+            "C",
+            "Apache",
+            "MySQL",
+            "SSH",
+            "Git",
+            "OTP",
+            "OpenSSH",
+            "OAuth",
+            "Linux",
+            "Reconnaissance",
+            "Binary Exploitation",
+            "Exploit Modification",
+            "Exploit Development",
+            "Password Cracking",
+            "Brute Force Attack",
+            "SUDO Exploitation",
+            "Decompilation",
+            "Common Applications",
+            "Injections",
+            "Common Security Controls",
+            "Reverse Engineering",
+            "Security Tools",
+            "Programming",
+            "2FA Bypass",
+            "Teampass",
+            "Bookstack"
+        ]
+    },
+    "650": {
+        "name": "Cypher",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": [
+            "Web Application",
+            "Command Execution",
+            "Cypher Injection",
+            "Python",
+            "Java",
+            "Neo4j",
+            "Fuzzing",
+            "Authentication bypass",
+            "Custom Applications",
+            "Injections"
+        ]
     },
     "651": {
         "name": "Dog",
         "os": "Linux",
         "difficulty": "Easy",
+        "tags": [
+            "Remote Code Execution",
+            "Arbitrary File Upload",
+            "PHP",
+            "SQL",
+            "Bash",
+            "MySQL",
+            "CMS",
+            "Git",
+            "User Enumeration"
+        ]
+    },
+    "652": {
+        "name": "TheFrizz",
+        "os": "Windows",
+        "difficulty": "Medium",
         "tags": []
+    },
+    "653": {
+        "name": "Code",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Remote Code Execution",
+            "Misconfiguration",
+            "Directory Traversal",
+            "Python",
+            "SQL",
+            "Bash",
+            "JavaScript",
+            "SSH",
+            "SQLite",
+            "Gunicorn",
+            "Reconnaissance",
+            "Password Cracking",
+            "SUDO Exploitation",
+            "Databases",
+            "Custom Applications",
+            "Source Code Analysis",
+            "Security Tools"
+        ]
     },
     "654": {
         "name": "Haze",
         "os": "Windows",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Arbitrary File Read",
+            "Active Directory Certificate Services",
+            "Impersonation",
+            "Common Applications",
+            "Active Directory",
+            "Shadow Credentials"
+        ]
+    },
+    "656": {
+        "name": "Nocturnal",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": [
+            "Web Application",
+            "Insecure Direct Object Reference (IDOR)",
+            "Command Execution",
+            "PHP",
+            "NGINX",
+            "SQLite",
+            "Pivoting",
+            "Password Cracking",
+            "Databases",
+            "Custom Applications",
+            "Injections"
+        ]
     },
     "657": {
         "name": "Scepter",
         "os": "Windows",
         "difficulty": "Hard",
+        "tags": [
+            "Misconfiguration",
+            "Powershell",
+            "NFS",
+            "Kerberos",
+            "LDAP",
+            "WinRM",
+            "OpenSSL",
+            "Active Directory Certificate Services"
+        ]
+    },
+    "658": {
+        "name": "Eureka",
+        "os": "Linux",
+        "difficulty": "Hard",
+        "tags": [
+            "Web Application",
+            "Hard-coded Credentials",
+            "Sensitive Data Exposure",
+            "Command Execution",
+            "Java",
+            "Spring Boot",
+            "Fuzzing",
+            "Memory Dump",
+            "Password Capture",
+            "Common Applications"
+        ]
+    },
+    "659": {
+        "name": "Environment",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Laravel",
+            "Linux",
+            "Web Site Structure Discovery",
+            "SUDO Exploitation",
+            "Decrypt",
+            "Common Applications",
+            "Software & OS exploitation"
+        ]
+    },
+    "660": {
+        "name": "Planning",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": [
+            "Web Application",
+            "Remote Code Execution",
+            "Clear Text Credentials",
+            "Bash",
+            "SSH",
+            "NGINX",
+            "Grafana",
+            "Reconnaissance",
+            "Fuzzing",
+            "Password Reuse",
+            "Port Forwarding",
+            "Common Applications",
+            "Custom Applications"
+        ]
+    },
+    "661": {
+        "name": "Puppy",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": [
+            "Enterprise Network",
+            "SAMBA",
+            "Active Directory"
+        ]
+    },
+    "662": {
+        "name": "Fluffy",
+        "os": "Windows",
+        "difficulty": "Easy",
+        "tags": [
+            "Enterprise Network",
+            "SMB",
+            "Active Directory Certificate Services",
+            "Password Cracking",
+            "Active Directory"
+        ]
+    },
+    "663": {
+        "name": "Certificate",
+        "os": "Windows",
+        "difficulty": "Hard",
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "Insecure Design",
+            "Python",
+            "SQL",
+            "Bash",
+            "Powershell",
+            "C",
+            "SMB",
+            "Active Directory Certificate Services",
+            "Antivirus Bypass",
+            "-Byte Poison",
+            "Custom Applications",
+            "Injections",
+            "Active Directory",
+            "Common Services",
+            "Security Tools"
+        ]
+    },
+    "664": {
+        "name": "TombWatcher",
+        "os": "Windows",
+        "difficulty": "Medium",
         "tags": []
     },
     "666": {
         "name": "Down",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "Arbitrary File Read",
+            "Remote Code Execution",
+            "OS Command Injection",
+            "PHP",
+            "Python",
+            "Bash",
+            "Apache",
+            "SSH",
+            "Reconnaissance",
+            "Fuzzing",
+            "SUDO Exploitation",
+            "Password Capture",
+            "Broken Authentication and Authorization",
+            "Custom Applications",
+            "Injections",
+            "Common Services",
+            "Source Code Analysis",
+            "Cryptography"
+        ]
     },
     "667": {
         "name": "Shibuya",
         "os": "Windows",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "Forensics",
+            "Weak Credentials",
+            "Clear Text Credentials",
+            "Code Execution",
+            "Default Credentials",
+            "Sensitive Data Exposure",
+            "SMB",
+            "SSH",
+            "Kerberos",
+            "Certificates",
+            "Active Directory Certificate Services",
+            "Hash Capture",
+            "Potato Exploits",
+            "Active Directory",
+            "Disk Forensics"
+        ]
     },
     "671": {
         "name": "Retro",
         "os": "Windows",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Weak Credentials",
+            "Anonymous/Guest Access",
+            "Active Directory Certificate Services"
+        ]
     },
     "673": {
         "name": "Data",
@@ -9270,25 +10302,57 @@
         "name": "VulnCicada",
         "os": "Windows",
         "difficulty": "Medium",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "SMB",
+            "NFS",
+            "Kerberos",
+            "Active Directory Certificate Services",
+            "Kerberos Abuse",
+            "Active Directory"
+        ]
     },
     "678": {
         "name": "VulnEscape",
         "os": "Windows",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "XML",
+            "RDP"
+        ]
     },
     "680": {
         "name": "Reset",
         "os": "Linux",
         "difficulty": "Easy",
-        "tags": []
+        "tags": [
+            "Web Application",
+            "Local File Inclusion",
+            "Remote Code Execution",
+            "Log Poisoning",
+            "PHP",
+            "Apache",
+            "Password Reset",
+            "Custom Applications"
+        ]
     },
     "681": {
         "name": "Redelegate",
         "os": "Windows",
         "difficulty": "Hard",
-        "tags": []
+        "tags": [
+            "Enterprise Network",
+            "SQL",
+            "Powershell",
+            "MSSQL",
+            "FTP",
+            "WinRM",
+            "KeePass",
+            "Password Cracking",
+            "AD DCSync",
+            "Password Spraying",
+            "Active Directory"
+        ]
     },
     "685": {
         "name": "RetroTwo",
@@ -9300,6 +10364,314 @@
         "name": "Ten",
         "os": "Linux",
         "difficulty": "Hard",
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Arbitrary File Upload",
+            "Apache",
+            "MySQL",
+            "FTP",
+            "Common Applications",
+            "Databases",
+            "Injections",
+            "Common Services"
+        ]
+    },
+    "687": {
+        "name": "Manage",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": [
+            "Vulnerability Assessment",
+            "Sensitive Data Exposure",
+            "Bash",
+            "SSH",
+            "Tomcat",
+            "OTP",
+            "Reconnaissance",
+            "SUDO Exploitation",
+            "Authentication bypass",
+            "Authentication"
+        ]
+    },
+    "688": {
+        "name": "LustrousTwo",
+        "os": "Windows",
+        "difficulty": "Hard",
+        "tags": [
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "Powershell",
+            "FTP",
+            "Kerberos",
+            "LDAP",
+            "Password Cracking",
+            "Password Spraying",
+            "Active Directory",
+            "Reverse Engineering"
+        ]
+    },
+    "689": {
+        "name": "Build",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": [
+            "Enterprise Network",
+            "SQL",
+            "Bash",
+            "Jenkins",
+            "MySQL",
+            "DNS",
+            "Docker",
+            "GitLab",
+            "Rsync",
+            "PowerDNS",
+            "Containers",
+            "Common Services"
+        ]
+    },
+    "690": {
+        "name": "Rainbow",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "693": {
+        "name": "Zero",
+        "os": "Linux",
+        "difficulty": "Insane",
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Arbitrary File Read",
+            "Arbitrary File Upload",
+            "Misconfiguration",
+            "Hard-coded Credentials",
+            "Apache",
+            "SFTP",
+            "Scheduled Job Abuse",
+            "Common Applications",
+            "Common Services"
+        ]
+    },
+    "695": {
+        "name": "Sweep",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": [
+            "Enterprise Network",
+            "SSH",
+            "Password Spraying",
+            "Active Directory"
+        ]
+    },
+    "697": {
+        "name": "Phantom",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": [
+            "Web Application",
+            "Enterprise Network",
+            "Forensics",
+            "Vulnerability Assessment",
+            "Anonymous/Guest Access",
+            "Command Execution",
+            "Powershell",
+            "SMB",
+            "WinRM",
+            "Impersonation",
+            "Password Reuse",
+            "Password Spraying",
+            "Resource Based Constrained Delegation",
+            "Databases",
+            "Custom Applications",
+            "Active Directory",
+            "Data Analysis",
+            "Authentication"
+        ]
+    },
+    "699": {
+        "name": "Lock",
+        "os": "Windows",
+        "difficulty": "Easy",
+        "tags": [
+            "Vulnerability Assessment",
+            "Clear Text Credentials",
+            "Arbitrary File Upload",
+            "Code Execution",
+            "Hard-coded Credentials",
+            "Command Execution",
+            "Insecure Design",
+            "Python",
+            "ASP",
+            "XML",
+            "IIS",
+            "Git",
+            "Reconnaissance",
+            "Software & OS exploitation"
+        ]
+    },
+    "706": {
+        "name": "Reaper",
+        "os": "Windows",
+        "difficulty": "Insane",
+        "tags": []
+    },
+    "712": {
+        "name": "Sendai",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": [
+            "Enterprise Network",
+            "Clear Text Credentials",
+            "Misconfiguration",
+            "Anonymous/Guest Access",
+            "SMB",
+            "WinRM",
+            "Active Directory Certificate Services",
+            "User Enumeration",
+            "Password Reset",
+            "Active Directory"
+        ]
+    },
+    "715": {
+        "name": "Race",
+        "os": "Linux",
+        "difficulty": "Hard",
+        "tags": [
+            "Arbitrary File Read",
+            "Arbitrary File Upload",
+            "PHP",
+            "Bash",
+            "CMS",
+            "Password Reset"
+        ]
+    },
+    "718": {
+        "name": "Media",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": [
+            "Web Application",
+            "Vulnerability Assessment",
+            "Arbitrary File Upload",
+            "PHP",
+            "SSH",
+            "XAMPP",
+            "Windows",
+            "Password Cracking",
+            "Privilege Abuse",
+            "Symlink attack",
+            "Source Code Analysis"
+        ]
+    },
+    "724": {
+        "name": "Delegate",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": [
+            "Enterprise Network",
+            "DNS",
+            "Kerberos",
+            "WinRM",
+            "Kerberos Abuse",
+            "Unconstrained Delegation",
+            "Active Directory"
+        ]
+    },
+    "733": {
+        "name": "Forgotten",
+        "os": "Linux",
+        "difficulty": "Easy",
+        "tags": [
+            "Web Application",
+            "Arbitrary File Upload",
+            "Code Execution",
+            "PHP",
+            "MariaDB",
+            "Docker",
+            "Docker Abuse",
+            "SUDO Exploitation",
+            "Common Applications",
+            "Databases"
+        ]
+    },
+    "739": {
+        "name": "Baby",
+        "os": "Windows",
+        "difficulty": "Easy",
+        "tags": [
+            "Enterprise Network",
+            "Vulnerability Assessment",
+            "Default Credentials",
+            "Powershell",
+            "WinRM",
+            "Windows",
+            "Reconnaissance",
+            "Pass the Hash",
+            "Password Spraying",
+            "Privilege Abuse",
+            "Password Reset",
+            "Active Directory",
+            "Protocols",
+            "Common Services",
+            "Security Tools",
+            "Authentication"
+        ]
+    },
+    "743": {
+        "name": "RainbowTwo",
+        "os": "Windows",
+        "difficulty": "Hard",
+        "tags": [
+            "Vulnerability Assessment",
+            "Python",
+            "Windows",
+            "Binary Exploitation",
+            "Binary Analysis",
+            "Reverse Engineering"
+        ]
+    },
+    "746": {
+        "name": "BabyTwo",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "757": {
+        "name": "Job",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "760": {
+        "name": "Watcher",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "763": {
+        "name": "Bamboo",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "766": {
+        "name": "Breach",
+        "os": "Windows",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "769": {
+        "name": "Slonik",
+        "os": "Linux",
+        "difficulty": "Medium",
+        "tags": []
+    },
+    "772": {
+        "name": "ReaperTwo",
+        "os": "Windows",
+        "difficulty": "Insane",
         "tags": []
     }
 }
